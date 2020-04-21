@@ -1,3 +1,11 @@
+.header_area .main_menu .navbar .navbar-brand {
+  font-family: arial black;
+}
+
+#navbarTogglerDemo02 {
+  font-family: arial black;
+}
+
 .home_banner_area .banner_inner .overlay {
   background: url(../img/background/front-landing-page.png) no-repeat scroll center center;
   position: absolute;
