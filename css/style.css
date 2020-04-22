@@ -7,7 +7,7 @@
 }
 
 .home_banner_area .banner_inner .overlay {
-  background: url(../img/background/front-landing-page_.png) no-repeat scroll right;
+  background: url(../img/background/front-landing-page_.png);
   position: absolute;
   left: 0;
   right: 0;
