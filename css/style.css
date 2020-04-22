@@ -44,11 +44,11 @@
     margin-bottom: 50px;
 }
 
-.banner_btn {
+.banner_content button {
     display: inline-block;
     background: rgb(223, 71, 59);
     padding: 10px 20px;
-    border: 1px solid rgb(223, 71, 59);
+    border: none;
     border-radius: 16px;
     color: #fff;
     font-family: arial;
