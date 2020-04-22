@@ -1,12 +1,10 @@
 @media (max-width: 991px){
-.navbar .container {
+  .navbar .container {
     padding-left: 15px;
     padding-right: 15px;
   }
-}
 
-@media (max-width: 991px){
-.navbar-toggler {
+  .navbar-toggler {
     border: none;
     border-radius: 0;
     padding: 0;
@@ -14,84 +12,73 @@
     margin-top: 27px;
     margin-bottom: 23px;
   }
-}
 
-@media (max-width: 480px) {
-.header_area .navbar-collapse {
-    max-height: 280px;
-  }
-}
-
-@media (max-width: 991px) {
-.header_area .navbar-collapse {
+  .header_area .navbar-collapse {
     max-height: 340px;
     overflow-y: scroll;
   }
-}
 
-@media (max-width: 575px) {
-.header_area+section, .header_area+row, .header_area+div {
-    margin-top: 71px;
-  }
-}
-
-@media (max-width: 767px) {
-.header_area+section, .header_area+row, .header_area+div {
-    margin-top: 80px;
-  }
-}
-
-@media (max-width: 991px) {
-.header_area+section, .header_area+row, .header_area+div {
+  .header_area+section,
+  .header_area+.row,
+  .header_area+div {
     margin-top: 78px;
+  }
+
+  .banner_content {
+    padding: 20px;
   }
 }
 
 @media (max-width: 480px) {
-.home_banner_area {
+  .header_area .navbar-collapse {
+    max-height: 280px;
+  }
+
+  .home_banner_area {
     min-height: 400px;
+  }
+
+  .home_banner_area .banner_inner .banner_content {
+    padding: 30px 15px;
+    margin-top: 0;
   }
 }
 
+
 @media (max-width: 575px) {
-.home_banner_area {
+  .header_area+section,
+  .header_area+.row,
+  .header_area+div {
+    margin-top: 71px;
+  }
+
+  .home_banner_area {
     min-height: 500px;
   }
 }
 
 @media (max-width: 767px) {
-.home_banner_area {
+  .header_area+section,
+  .header_area+.row,
+  .header_area+div {
+    margin-top: 80px;
+  }
+
+  .home_banner_area {
     min-height: 500px;
+  }
+
+  .home_banner_area .banner_inner .banner_content {
+    margin-top: 0;
+  }
+
+  .home_banner_area .banner_inner .banner_content h3 {
+    font-size: 30px;
   }
 }
 
 @media (max-width: 1199px) {
 .home_banner_area {
     min-height: 700px;
-  }
-}
-
-@media (max-width: 480px) {
-.home_banner_area .banner_inner .banner_content {
-    padding: 30px 15px;
-    margin-top: 0;
-  }
-}
-
-@media (max-width: 767px) {
-.home_banner_area .banner_inner .banner_content {
-    margin-top: 0;
-  }
-}
-
-@media (max-width: 991px) {
-.banner_content {
-    padding: 20px;
-  }
-}
-
-@media (max-width: 767px) {
-.home_banner_area .banner_inner .banner_content h3 {
-    font-size: 30px;
   }
 }
