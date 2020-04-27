@@ -1,4 +1,4 @@
-@media (max-width: 991px){
+@media (max-width: 991px) {
   .navbar .container {
     padding-left: 15px;
     padding-right: 15px;
@@ -44,8 +44,8 @@
   }
 }
 
-
 @media (max-width: 575px) {
+
   .header_area+section,
   .header_area+.row,
   .header_area+div {
@@ -58,6 +58,7 @@
 }
 
 @media (max-width: 767px) {
+
   .header_area+section,
   .header_area+.row,
   .header_area+div {
@@ -78,7 +79,7 @@
 }
 
 @media (max-width: 1199px) {
-.home_banner_area {
+  .home_banner_area {
     min-height: 700px;
   }
 }

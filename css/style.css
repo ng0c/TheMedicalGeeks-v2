@@ -17,48 +17,105 @@
 }
 
 .home_banner_area .banner_inner {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    min-height: 900px;
-    background-color: #5985BA;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 900px;
+  background-color: #5985BA;
 }
 
 .home_banner_area .banner_inner .banner_content {
-    color: #fff;
+  color: #fff;
 }
 
 .home_banner_area .banner_inner .banner_content h3 {
-    font-size: 30px;
-    font-family: arial black;
-    font-weight: 600;
-    margin-bottom: 30px;
+  font-size: 30px;
+  font-family: arial black;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 
 .home_banner_area .banner_inner .banner_content p {
-    font-size: 15px;
-    font-weight: 300;
-    font-family: arial;
-    line-height: 27px;
-    margin-bottom: 50px;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: arial;
+  line-height: 27px;
+  margin-bottom: 50px;
 }
 
 .banner_content button {
-    display: inline-block;
-    background: rgb(223, 71, 59);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 16px;
-    color: #fff;
-    font-family: arial;
-    font-size: 15px;
-    font-weight: 550;
-    line-height: 48px;
-    outline: none!important;
-    box-shadow: none!important;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    text-transform: uppercase;
-    overflow: hidden;
+  display: inline-block;
+  background: rgb(223, 71, 59);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 16px;
+  color: #fff;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: 550;
+  line-height: 48px;
+  outline: none !important;
+  box-shadow: none !important;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.service-area .service-area-inner .overlay {
+  background: url(../img/background/alternative-container-2.png) no-repeat center left;
+  position: absolute;
+  left: 70px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.service-area .service-area-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 900px;
+  background-color: rgb(208, 208, 208);
+}
+
+.service-area .service-area-inner .service_content {
+  margin-top: 50px;
+  color: black;
+}
+
+.service-area .service-area-inner .service_content h2 {
+  font-size: 30px;
+  font-family: arial black;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.service-area .service-area-inner .service_content h3 {
+  font-size: 20px;
+  font-family: arial;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.service-area .service-area-inner .service_content p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: arial;
+  line-height: 27px;
+  margin-bottom: 50px;
+}
+
+.service-area .service-area-inner .service_content .card-deck .card {
+  border-radius: 25px;
+  background-color: rgb(223, 223, 223)
+}
+
+.service-area .service-area-inner .service_content img {
+  height: 32%;
+  width: 40%;
+  align-self: center;
+  padding-top: 10px;
 }
