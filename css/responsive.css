@@ -4,6 +4,10 @@
     padding-right: 15px;
   }
 
+  .area-padding {
+    padding: 80px 0;
+  }
+
   .navbar-toggler {
     border: none;
     border-radius: 0;
@@ -60,6 +64,11 @@
   .home_banner_area {
     min-height: 500px;
   }
+
+  .area-heading h4 {
+    font-size: 30px;
+    line-height: 40px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -97,6 +106,10 @@
   .service-area .service-area-inner .overlay {
     background-image: none !important;
   }
+
+  .service-area-subcontent .service-subcontent-inner .overlay {
+    background-image: none !important;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -106,5 +119,13 @@
 
   .service_area {
     min-height: 700px;
+  }
+
+  .area-padding {
+    padding: 80px 0;
+  }
+
+  .area-heading {
+    margin-bottom: 50px;
   }
 }
