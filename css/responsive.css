@@ -76,6 +76,10 @@
   .home_banner_area .banner_inner .banner_content h3 {
     font-size: 30px;
   }
+
+  .service-area .service-area-inner .overlay {
+    background-image: none !important;
+  }
 }
 
 @media (max-width: 1199px) {
