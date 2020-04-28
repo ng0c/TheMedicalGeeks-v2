@@ -154,7 +154,7 @@
 
 .service-area-subcontent .area-heading h4 {
   font-size: 45px;
-  color: #1d1d1d;
+  color: white;
   font-family: arial black;
   margin-bottom: 40px;
   line-height: 58px;
@@ -163,7 +163,7 @@
 .service-area-subcontent .area-heading p {
   font-size: 14px;
   font-family: arial;
-  color: black;
+  color: white;
   margin-bottom: 40px;
   line-height: 27px;
   padding-right: 65px;
