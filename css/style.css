@@ -110,7 +110,14 @@
 
 .service-area .service-area-inner .service_content .card-deck .card {
   border-radius: 25px;
+  font-family: arial black;
+  font-size: 25px;
   background-color: rgb(223, 223, 223)
+}
+
+.service-area .service-area-inner .service_content .card-deck .card p {
+  font-family: arial;
+  font-size: 15px;
 }
 
 .service-area .service-area-inner .service_content img {
