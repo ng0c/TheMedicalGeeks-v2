@@ -216,3 +216,14 @@
   align-self: center;
   padding-top: 10px;
 }
+
+.service-card-area .service-card-inner .overlay {
+  background: url(../img/background/container-5.png) no-repeat center;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
