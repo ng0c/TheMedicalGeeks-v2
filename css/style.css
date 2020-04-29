@@ -1,9 +1,9 @@
 .header_area .main_menu .navbar .navbar-brand {
-  font-family: arial black;
+  font-family: "Arial Black", sans-serif;
 }
 
 #navbarTogglerDemo02 {
-  font-family: arial black;
+  font-family: "Arial Black", sans-serif;
 }
 
 .home_banner_area .banner_inner .overlay {
@@ -30,7 +30,7 @@
 
 .home_banner_area .banner_inner .banner_content h3 {
   font-size: 30px;
-  font-family: arial black;
+  font-family: "Arial Black", sans-serif;
   font-weight: 600;
   margin-bottom: 30px;
 }
@@ -38,7 +38,7 @@
 .home_banner_area .banner_inner .banner_content p {
   font-size: 15px;
   font-weight: 300;
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 27px;
   margin-bottom: 50px;
 }
@@ -50,7 +50,7 @@
   border: none;
   border-radius: 16px;
   color: #fff;
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 550;
   line-height: 48px;
@@ -88,14 +88,14 @@
 
 .service-area .service-area-inner .service_content h2 {
   font-size: 30px;
-  font-family: arial black;
+  font-family: "Arial Black", sans-serif;
   font-weight: 600;
   margin-bottom: 30px;
 }
 
 .service-area .service-area-inner .service_content h3 {
   font-size: 20px;
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   margin-bottom: 30px;
 }
@@ -103,20 +103,20 @@
 .service-area .service-area-inner .service_content p {
   font-size: 15px;
   font-weight: 400;
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 27px;
   margin-bottom: 50px;
 }
 
 .service-area .service-area-inner .service_content .card-deck .card {
   border-radius: 25px;
-  font-family: arial black;
+  font-family: "Arial Black", sans-serif;
   font-size: 25px;
   background-color: rgb(223, 223, 223)
 }
 
 .service-area .service-area-inner .service_content .card-deck .card p {
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
 
@@ -155,7 +155,7 @@
 .service-area-subcontent .area-heading h4 {
   font-size: 40px;
   color: white;
-  font-family: arial black;
+  font-family: "Arial Black", sans-serif;
   margin-bottom: 40px;
   line-height: 58px;
 }
@@ -163,7 +163,7 @@
 .service-area-subcontent .area-heading p {
   font-size: 20px;
   font-weight: bold;
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
   margin-bottom: 30px;
   line-height: 27px;
@@ -206,7 +206,7 @@
   border: none;
   text-align: center;
   color: white;
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
 
