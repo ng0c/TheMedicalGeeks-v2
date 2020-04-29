@@ -185,3 +185,34 @@
   min-width: 100px;
   margin-right: 40px;
 }
+
+.home-testimonial {
+  position: relative;
+}
+
+.home-testimonial .home-testimonial-inner .overlay {
+  background: url(../img/background/container-4.png) no-repeat center;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.home-testimonial .home-testimonial-inner .card {
+  background: none;
+  border: none;
+  text-align: center;
+  color: white;
+  font-family: arial;
+  font-size: 20px;
+}
+
+.home-testimonial .home-testimonial-inner img {
+  height: 5%;
+  width: 15%;
+  align-self: center;
+  padding-top: 10px;
+}
