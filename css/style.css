@@ -220,21 +220,26 @@
   position: relative;
 }
 
-.service-card-area .service-card-inner .overlay {
-  background: url(../img/background/container-5.png) no-repeat center;
-  background-size: cover;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  height: 100%;
+.card-deck .card {
+  color: white;
+  border: none;
 }
 
-.service-card-area .service-card-inner .card-body {
-  position: absolute;
+.card-deck .card .card-body {
+  border-radius: 25px;
+  border-style: solid;
+  border-color: black;
 }
 
-.service-card-area .service-card-inner .card-body button {
-  bottom: 0;
+.card-deck .card .card-body h4 {
+  font-family: "Arial Black", sans-serif;
+}
+
+.card-deck .card .card-body p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.card-deck .card .card-body .btn {
+  font-family: "Arial Black", sans-serif;
 }
