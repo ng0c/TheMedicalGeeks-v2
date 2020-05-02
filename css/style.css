@@ -220,26 +220,54 @@
   position: relative;
 }
 
-.card-deck .card {
+.service-card-area .card-deck .card {
   color: white;
   border: none;
 }
 
-.card-deck .card .card-body {
+.service-card-area .card-deck .card .card-body {
   border-radius: 25px;
   border-style: solid;
   border-color: black;
 }
 
-.card-deck .card .card-body h4 {
+.service-card-area .card-deck .card .card-body h4 {
   font-family: "Arial Black", sans-serif;
 }
 
-.card-deck .card .card-body p {
+.service-card-area .card-deck .card .card-body p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
-.card-deck .card .card-body .btn {
+.service-card-area .card-deck .card .card-body .btn {
+  font-family: "Arial Black", sans-serif;
+}
+
+.service-card-area-2 {
+  position: relative;
+}
+
+.service-card-area-2 .card-deck .card {
+  color: white;
+  border: none;
+}
+
+.service-card-area-2 .card-deck .card .card-body {
+  border-radius: 25px;
+  border-style: solid;
+  border-color: black;
+}
+
+.service-card-area-2 .card-deck .card .card-body h4 {
+  font-family: "Arial Black", sans-serif;
+}
+
+.service-card-area-2 .card-deck .card .card-body p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.service-card-area-2 .card-deck .card .card-body .btn {
   font-family: "Arial Black", sans-serif;
 }
