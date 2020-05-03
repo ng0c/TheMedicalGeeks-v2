@@ -1,0 +1,7 @@
+.hero-banner {
+  background: url(../img/background/interview-container-1.pdf) no-repeat scroll center center;
+  position: relative;
+  padding: 70px 0;
+  background-size: cover;
+  min-height: 450px;
+}
