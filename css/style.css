@@ -1,5 +1,4 @@
 /* Main styles for all pages */
-
 .header_area .main_menu .navbar .navbar-brand {
   font-family: "Arial Black", sans-serif;
 }
@@ -23,7 +22,7 @@
 
 .page-footer .list-unstyled a:hover {
   text-decoration: none;
-  color: rgb(220,220,220)
+  color: rgb(220, 220, 220)
 }
 
 .page-footer .list-unstyled a {
@@ -33,7 +32,7 @@
 
 .page-footer .footer-copyright a:hover {
   text-decoration: none;
-  color: rgb(220,220,220)
+  color: rgb(220, 220, 220)
 }
 
 .page-footer .footer-copyright {
