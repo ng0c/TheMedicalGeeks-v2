@@ -70,6 +70,18 @@
     min-height: 400px;
   }
 
+  .service-card-area {
+    min-height: 400px;
+  }
+
+  .service-card-area-2 {
+    min-height: 400px;
+  }
+
+  .page-footer {
+    min-height: 400px;
+  }
+
   .home_banner_area .banner_inner .banner_content {
     padding: 30px 15px;
     margin-top: 0;
@@ -102,6 +114,18 @@
   }
 
   .home-testimonial {
+    min-height: 500px;
+  }
+
+  .service-card-area {
+    min-height: 500px;
+  }
+
+  .service-card-area-2 {
+    min-height: 500px;
+  }
+
+  .page-footer {
     min-height: 500px;
   }
 
@@ -144,6 +168,18 @@
   }
 
   .home-testimonial {
+    min-height: 500px;
+  }
+
+  .service-card-area {
+    min-height: 500px;
+  }
+
+  .service-card-area-2 {
+    min-height: 500px;
+  }
+
+  .page-footer {
     min-height: 500px;
   }
 
@@ -190,6 +226,18 @@
   }
 
   .service-area-subcontent {
+    min-height: 700px;
+  }
+
+  .service-card-area {
+    min-height: 700px;
+  }
+
+  .service-card-area-2 {
+    min-height: 700px;
+  }
+
+  .page-footer {
     min-height: 700px;
   }
 
