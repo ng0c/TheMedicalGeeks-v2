@@ -23,9 +23,12 @@
   }
 
   .header_area+section,
-  .header_area+.row,
+  .header_area+.row {
+    margin-top: 70px;
+  }
+
   .header_area+div {
-    margin-top: 0px;
+    margin-top: 25px;
   }
 
   .banner_content {
@@ -96,8 +99,7 @@
 @media (max-width: 575px) {
 
   .header_area+section,
-  .header_area+.row,
-  .header_area+div {
+  .header_area+.row {
     margin-top: 71px;
   }
 
@@ -150,9 +152,8 @@
 @media (max-width: 767px) {
 
   .header_area+section,
-  .header_area+.row,
-  .header_area+div {
-    margin-top: 0px;
+  .header_area+.row {
+    margin-top: 80px;
   }
 
   .home_banner_area {
