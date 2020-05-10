@@ -5,16 +5,31 @@
   margin-top: 5em;
 }
 
-.interview-area {
-  padding-top: 80px;
-}
-
 .interview-area .area-heading h1 {
   text-align: center;
   padding-bottom: 40px;
+  padding-top: 100px;
 }
 
 .interview-area .interview-area-inner .card {
   border-style: solid;
   border-color: Black;
+}
+
+.interview-preview h1 {
+  padding-top: 120px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.interview-preview .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.interview-preview .row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
