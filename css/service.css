@@ -102,6 +102,11 @@
 .interview-products-available .products-available-inner .card {
   border-style: solid;
   border-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.interview-products-available .products-available-inner .card .card-title {
+  font-family: "Arial Black", sans-serif;
 }
 
 .interview-products-available .products-available-inner .card img {
@@ -115,6 +120,7 @@
 display: inline-block;
 border: none;
 color: black;
+font-family: "Arial Black", sans-serif;
 }
 
 .interview-products-available .products-available-inner .btn:hover {
