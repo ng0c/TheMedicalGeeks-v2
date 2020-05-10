@@ -4,3 +4,17 @@
   height: 100%;
   margin-top: 5em;
 }
+
+.interview-area {
+  padding-top: 80px;
+}
+
+.interview-area .area-heading h1 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.interview-area .interview-area-inner .card {
+  border-style: solid;
+  border-color: Black;
+}
