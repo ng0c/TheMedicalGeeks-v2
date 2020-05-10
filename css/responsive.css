@@ -50,6 +50,10 @@
   .service-area-subcontent .service-subcontent-inner .overlay {
     background-image: none !important;
   }
+
+  .mmi-service-area .mmi-area-inner .overlay {
+    background-image: none !important;
+  }
 }
 
 @media (max-width: 480px) {
@@ -147,6 +151,10 @@
   .service-area-subcontent .service-subcontent-inner .overlay {
     background-image: none !important;
   }
+
+  .mmi-service-area .mmi-area-inner .overlay {
+    background-image: none !important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -211,6 +219,10 @@
   .service-area-subcontent .service-subcontent-inner .overlay {
     background-image: none !important;
   }
+
+  .mmi-service-area .mmi-area-inner .overlay {
+    background-image: none !important;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -259,6 +271,10 @@
   }
 
   .service-area-subcontent .service-subcontent-inner .overlay {
+    background-image: none !important;
+  }
+
+  .mmi-service-area .mmi-area-inner .overlay {
     background-image: none !important;
   }
 }
