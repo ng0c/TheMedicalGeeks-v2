@@ -18,7 +18,6 @@
 
 .interview-preview h1 {
   padding-top: 120px;
-  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -32,4 +31,37 @@
   content: "";
   clear: both;
   display: table;
+}
+
+.mmi-service-area {
+  padding-top: 150px;
+  background-color: rgb(134, 202, 204);
+}
+
+.mmi-service-area .mmi-area-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 700px;
+}
+
+.mmi-service-area .mmi-area-inner .overlay {
+  background: url(../img/background/interview-container-4.png) no-repeat center right;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.mmi_service_content {
+  height: 700px;
+}
+
+.mmi-service-area .mmi-area-inner .card {
+  border: none;
+  background-color: rgb(134, 202, 204);
+  padding-top: 40px;
+  padding-right: 30px;
 }
