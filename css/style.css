@@ -10,6 +10,7 @@
 .page-footer {
   background-color: #5985BA;
   color: white;
+  overflow: hidden;
 }
 
 .page-footer p {
@@ -37,9 +38,15 @@
 
 .page-footer .footer-copyright {
   font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
 }
 
 .page-footer .footer-copyright a {
   color: white;
   font-family: "Arial Black", sans-serif;
+}
+
+.page-footer .footer-terms .list-unstyled a {
+  font-size: 12px;
+  padding-right: 10px;
 }

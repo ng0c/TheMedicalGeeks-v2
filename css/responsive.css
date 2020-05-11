@@ -39,6 +39,10 @@
     padding: 20px;
   }
 
+  .page-footer .footer-copyright {
+    padding-left: 0px;
+  }
+
   .home_banner_area .banner_inner .overlay {
     background-image: none !important;
   }
