@@ -58,6 +58,14 @@
   .mmi-service-area .mmi-area-inner .overlay {
     background-image: none !important;
   }
+
+  .ucat-service-area .overlay{
+    background-image: none !important;
+  }
+
+  .bmat-service-area .overlay{
+    background-image: none !important;
+  }
 }
 
 @media (max-width: 480px) {
@@ -101,6 +109,14 @@
   .service-area .service-area-inner .service_content {
     padding: 30px 15px;
     margin-top: 5em;
+  }
+
+  .ucat-service-area .overlay{
+    background-image: none !important;
+  }
+
+  .bmat-service-area .overlay{
+    background-image: none !important;
   }
 }
 
@@ -159,6 +175,14 @@
   .mmi-service-area .mmi-area-inner .overlay {
     background-image: none !important;
   }
+
+  .ucat-service-area .overlay{
+    background-image: none !important;
+  }
+
+  .bmat-service-area .overlay{
+    background-image: none !important;
+}
 }
 
 @media (max-width: 767px) {
@@ -227,6 +251,15 @@
   .mmi-service-area .mmi-area-inner .overlay {
     background-image: none !important;
   }
+
+  .ucat-service-area .overlay{
+    background-image: none !important;
+}
+
+  .bmat-service-area .overlay{
+    background-image: none !important;
+
+}
 }
 
 @media (max-width: 1199px) {
@@ -281,4 +314,36 @@
   .mmi-service-area .mmi-area-inner .overlay {
     background-image: none !important;
   }
+
+  .ucat-service-area .overlay{
+    background-image: none !important;
+  }
+
+  .ucat-service-area-subcontent .ucat-service-subcontent-inner .overlay {
+    background-image: none !important;
+    }
+
+  .bmat-service-area .overlay{
+      background-image:none !important;
+  }
+
+  .bmat-service-area-subcontent .bmat-service-subcontent-inner .overlay {
+    background-image: none !important;
+    }
 }
+/* THIS IS AN EXCEPTION FOR IPHONE 5E PHONES AND THE WAY IT RESPONDS TO CERTAIN TEXT SIZE FORMATS */ 
+
+@media screen and (device-aspect-ratio: 40/71) {
+
+  .ucat-service-area .overlay{
+      background-image: none !important;
+  }
+  .single-feature-content h5 {
+    font-size: 15px;
+  }
+  
+  .bmat-service-area .overlay{
+    background-image:none !important;
+  }
+  }
+  

@@ -1,3 +1,5 @@
+/* INTERVIEW PAGE */ 
+
 .interview-hero img {
   background-size: cover;
   width: 100%;
@@ -132,3 +134,582 @@ font-family: "Arial Black", sans-serif;
   text-decoration: none;
   color:#696969;
 }
+
+
+/* UCAT CSS PAGE */ 
+
+/* CONTAINER 1 SECTION */ 
+
+.ucat-hero-banner {
+  background: url(../img/background/ucat-container-1.png) no-repeat scroll center center;
+  position: relative;
+  padding: 70px 0;
+  background-size: cover;
+  min-height: 450px;
+}
+
+
+/* CONTAINER 2 SECTION */ 
+
+.ucat-service-area .overlay{
+  background: url(../img/background/container-2-ucat.png) no-repeat center right;
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  height:100%;  
+}
+
+
+.ucat-service-area .ucat-service-area-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 900px;
+  background-color: rgb(208, 208, 208);
+}
+
+.ucat-service-area .ucat-service-area-inner .ucat-service_content {
+  margin-top: 50px;
+  color: black;
+}
+
+.ucat-service-area .ucat-ervice-area-inner .ucat-service_content h2 {
+  font-size: 30px;
+  font-family: "Arial Black", sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.ucat-service-area .ucat-service-area-inner .ucat-service_content h3 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.ucat-service-area .ucat-service-area-inner .ucat-service_content p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 27px;
+  margin-bottom: 50px;
+}
+
+.ucat-service-area .ucat-service-area-inner .ucat-service_content .card-deck .card {
+  border-radius: 25px;
+  font-family: "Arial Black", sans-serif;
+  font-size: 25px;
+  background-color: rgb(223, 223, 223)
+}
+
+.ucat-service-area .ucat-service-area-inner .ucat-service_content .card-deck .card p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.ucat-service-area .ucat-service-area-inner .ucat-service_content img {
+  height: 32%;
+  width: 40%;
+  align-self: center;
+  padding-top: 10px;
+}
+
+.ucat-service-area-subcontent {
+  position: relative;
+  background-color: rgb(204,227,240) 
+}
+
+.area-padding {
+  padding: 100px 0;
+}
+
+.ucat-service-area-subcontent .area-heading {
+  margin-bottom: 10px;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.ucat-service-area-subcontent .area-heading h4 {
+  font-size: 40px;
+  color: rgb(8,36,57);
+  font-family: "Arial Black", sans-serif;
+  font-weight: bold; 
+  margin-bottom: 40px;
+  line-height: 58px;
+}
+
+.ucat-service-area-subcontent .area-heading p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(8,36,57);
+  margin-bottom: 30px;
+  line-height: 27px;
+  padding-right: 65px;
+}
+
+.ucat-service-area-subcontent .single-feature {
+  text-align: left;
+  display: inline-block;
+}
+
+.ucat-service-area-subcontent .single-feature img {
+  width: 110px;
+  height: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+  position: relative;
+  min-width: 100px;
+  margin-right: 10px;
+}
+
+/* PREVIEW OF OUR GUIDE CONTAINER */
+
+.ucat-preview h1 {
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+  color:#696969;
+  font-family: "Arial Black", sans-serif;
+}
+
+.ucat-preview .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.ucat-preview .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* TESTIMONIAL CONTAINER */ 
+
+.ucat-testimonial {
+  position: relative;
+}
+
+.ucat-testimonial .ucat-testimonial-inner .overlay {
+  background: url(../img/background/container-4.png) no-repeat center;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.ucat-testimonial .ucat-testimonial-inner .card {
+  background: none;
+  border: none;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.ucat-testimonial .ucat-testimonial-inner img {
+  height: 5%;
+  width: 15%;
+  align-self: center;
+  padding-top: 10px;
+}
+
+/* PRODUCTS AVAIABLE CONTAINER */
+
+.products-section {
+    background-color: white;
+    margin-bottom:80px;
+    margin-top:10px;
+
+}
+
+.products-available-header {
+  margin-top: 50px;
+  margin-bottom:50px;
+  background: white;
+  border:none;
+  text-align:center;
+  font-family:"Arial Black";
+  font-weight:bold;
+  font-size: 50px;
+  color:#696969
+}
+
+.products-section .card {
+      max-width: 300px;
+      max-height: 500px;
+      outline:none;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+      background-color: white;
+      border-radius: 5px;
+      border: 1px solid #000000;
+
+}
+
+.products-section .img{
+    align-self:center;
+    padding-top: 10px;
+
+}
+
+.filler1 {
+
+  border-top-width: 20px;
+  border-top: grey;
+  border-top-style:solid;
+  padding-bottom:20px;
+
+}
+
+.products-section h1 {
+  font-size: 20px;
+  text-align:center;
+  color:black;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold;
+
+}
+
+.products-section p2 { 
+    font-size:13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+    text-align:center;
+
+}
+
+.products-section .price {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold;
+
+}
+
+.filler2 { 
+    padding-bottom:30px;
+    margin-bottom: 30px;
+    background-color: white;
+    max-height: 30px;
+    border-bottom-width: 30px;
+    border-bottom: grey;
+    border-bottom-style:solid;
+}
+
+.card button {
+  border-right:white;
+  border-bottom:white;
+  border-left:white;
+  border-top:white;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+.card button:hover {
+  opacity: 0.7;
+    }
+
+
+
+/* BMAT HTML SECTION */
+
+.bmat-hero-banner {
+  background: url(../img/background/bmat-container-1.png) no-repeat scroll center center;
+  position: relative;
+  padding: 70px 0;
+  background-size: cover;
+  min-height: 450px;
+}
+
+/* CONTAINER 2 SECTION */ 
+
+.bmat-service-area .overlay{
+  background: url(../img/background/container-2-bmat.png) no-repeat center right;
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  height:100%;  
+}
+
+
+.bmat-service-area .bmat-service-area-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 900px;
+  background-color: rgb(205, 169, 168) 
+}
+
+.bmat-service-area .bmat-service-area-inner .bmat-service_content {
+  margin-top: 50px;
+  color: black;
+}
+
+.bmat-service-area .bmat-ervice-area-inner .bmat-service_content h2 {
+  font-size: 30px;
+  font-family: "Arial Black", sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.bmat-service-area .bmat-service-area-inner .bmat-service_content h3 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.bmat-service-area .bmat-service-area-inner .bmat-service_content p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 27px;
+  margin-bottom: 50px;
+}
+
+.bmat-service-area .bmat-service-area-inner .bmat-service_content .card-deck .card {
+  border-radius: 25px;
+  font-family: "Arial Black", sans-serif;
+  font-size: 25px;
+  background-color:rgb(205, 169, 168) 
+}
+
+.bmat-service-area .bmat-service-area-inner .bmat-service_content .card-deck .card p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.bmat-service-area .bmat-service-area-inner .bmat-service_content img {
+  height: 32%;
+  width: 40%;
+  align-self: center;
+  padding-top: 10px;
+}
+
+.bmat-service-area-subcontent {
+  position: relative;
+  background-color: rgb(205, 169, 168) 
+}
+
+.area-padding {
+  padding: 100px 0;
+}
+
+.bmat-service-area-subcontent .area-heading {
+  margin-bottom: 10px;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.bmat-service-area-subcontent .area-heading h4 {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-family: "Arial Black", sans-serif;
+  font-weight: bold; 
+  margin-bottom: 40px;
+  line-height: 58px;
+}
+
+.bmat-service-area-subcontent .area-heading p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  line-height: 27px;
+  padding-right: 65px;
+}
+
+.bmat-service-area-subcontent .single-feature {
+  text-align: left;
+  display: inline-block;
+}
+
+.bmat-service-area-subcontent .single-feature img {
+  width: 110px;
+  height: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+  position: relative;
+  min-width: 100px;
+  margin-right: 10px;
+}
+
+/* PREVIEW OF OUR GUIDE CONTAINER */
+
+.bmat-preview h1 {
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+  color:#696969;
+  font-family: "Arial Black", sans-serif;
+}
+
+.bmat-preview .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.bmat-preview .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* TESTIMONIAL CONTAINER */ 
+
+.bmat-testimonial {
+  position: relative;
+}
+
+.bmat-testimonial .bmat-testimonial-inner .overlay {
+  background: url(../img/background/container-4.png) no-repeat center;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.bmat-testimonial .bmat-testimonial-inner .card {
+  background: none;
+  border: none;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.bmat-testimonial .bmat-testimonial-inner img {
+  height: 5%;
+  width: 15%;
+  align-self: center;
+  padding-top: 10px;
+}
+
+/* PRODUCTS AVAIABLE CONTAINER */
+
+.products-section {
+    background-color: white;
+    margin-bottom:80px;
+    margin-top:10px;
+
+}
+
+.products-available-header {
+  margin-top: 50px;
+  margin-bottom:50px;
+  background: white;
+  border:none;
+  text-align:center;
+  font-family:"Arial Black";
+  font-weight:bold;
+  font-size: 50px;
+  color:#696969
+}
+
+.products-section .card {
+      max-width: 300px;
+      max-height: 500px;
+      outline:none;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+      background-color: white;
+      border-radius: 5px;
+      border: 1px solid #000000;
+
+}
+
+.products-section .img{
+    align-self:center;
+    padding-top: 10px;
+
+}
+
+.filler1 {
+
+  border-top-width: 20px;
+  border-top: grey;
+  border-top-style:solid;
+  padding-bottom:20px;
+
+}
+
+.products-section h1 {
+  font-size: 20px;
+  text-align:center;
+  color:black;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold;
+
+}
+
+.products-section p2 { 
+    font-size:13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+    text-align:center;
+
+}
+
+.products-section .price {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold;
+
+}
+
+.filler2 { 
+    padding-bottom:30px;
+    margin-bottom: 30px;
+    background-color: white;
+    max-height: 30px;
+    border-bottom-width: 30px;
+    border-bottom: grey;
+    border-bottom-style:solid;
+}
+
+.card button {
+  border-right:white;
+  border-bottom:white;
+  border-left:white;
+  border-top:white;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+.card button:hover {
+  opacity: 0.7;
+    }
