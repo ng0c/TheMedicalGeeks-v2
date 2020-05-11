@@ -50,3 +50,53 @@
   font-size: 12px;
   padding-right: 10px;
 }
+
+/* T&C Styles */
+.tnc-area .tnc-header h1 {
+  font-family: "Arial Black", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.tnc-area .tnc-header h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.tnc-area .main-paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(220, 220, 220);
+  border-style: solid;
+  margin-top: 3em;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.tnc-area .text-content {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 3em;
+  line-height: 40px;
+}
+
+.tnc-area .text-content h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.tnc-area .disclaimer h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.tnc-area .disclaimer {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(220, 220, 220);
+  border-style: solid;
+  margin-top: 3em;
+  padding-left: 5px;
+  padding-right: 5px;
+}
