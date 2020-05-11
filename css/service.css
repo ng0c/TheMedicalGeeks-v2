@@ -1,5 +1,4 @@
 /* INTERVIEW PAGE */
-
 .interview-hero img {
   background-size: cover;
   width: 100%;
@@ -11,7 +10,7 @@
   text-align: center;
   padding-bottom: 40px;
   padding-top: 100px;
-  color:#696969;
+  color: #696969;
   font-family: "Arial Black", sans-serif;
 }
 
@@ -29,7 +28,7 @@
   padding-top: 120px;
   text-align: center;
   padding-bottom: 40px;
-  color:#696969;
+  color: #696969;
   font-family: "Arial Black", sans-serif;
 }
 
@@ -91,9 +90,9 @@
 }
 
 .interview-products-available {
-background-color: white;
-margin-bottom:80px;
-margin-top:10px;
+  background-color: white;
+  margin-bottom: 80px;
+  margin-top: 10px;
 }
 
 .interview-products-available .products-available-inner {
@@ -102,7 +101,7 @@ margin-top:10px;
 
 .interview-products-available .products-available-inner h1 {
   text-align: center;
-  color:#696969;
+  color: #696969;
   font-family: "Arial Black", sans-serif;
   font-size: 2.5rem;
   padding-bottom: 40px;
@@ -122,7 +121,7 @@ margin-top:10px;
 }
 
 .interview-products-available .products-available-inner .card p {
-  color:#696969;
+  color: #696969;
 }
 
 .interview-products-available .products-available-inner .card img {
@@ -133,22 +132,19 @@ margin-top:10px;
 }
 
 .interview-products-available .products-available-inner .btn {
-display: inline-block;
-border: none;
-color: black;
-font-family: "Arial Black", sans-serif;
+  display: inline-block;
+  border: none;
+  color: black;
+  font-family: "Arial Black", sans-serif;
 }
 
 .interview-products-available .products-available-inner .btn:hover {
   text-decoration: none;
-  color:#696969;
+  color: #696969;
 }
 
-
 /* UCAT CSS PAGE */
-
 /* CONTAINER 1 SECTION */
-
 .ucat-hero-banner {
   background: url(../img/background/ucat-container-1.png) no-repeat scroll center center;
   position: relative;
@@ -157,19 +153,16 @@ font-family: "Arial Black", sans-serif;
   min-height: 450px;
 }
 
-
 /* CONTAINER 2 SECTION */
-
-.ucat-service-area .overlay{
+.ucat-service-area .overlay {
   background: url(../img/background/container-2-ucat.png) no-repeat center right;
   position: absolute;
-  left:0;
-  right:0;
-  top:0;
-  bottom:0;
-  height:100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
 }
-
 
 .ucat-service-area .ucat-service-area-inner {
   position: relative;
@@ -227,7 +220,7 @@ font-family: "Arial Black", sans-serif;
 
 .ucat-service-area-subcontent {
   position: relative;
-  background-color: rgb(204,227,240)
+  background-color: rgb(204, 227, 240)
 }
 
 .area-padding {
@@ -242,7 +235,7 @@ font-family: "Arial Black", sans-serif;
 
 .ucat-service-area-subcontent .area-heading h4 {
   font-size: 40px;
-  color: rgb(8,36,57);
+  color: rgb(8, 36, 57);
   font-family: "Arial Black", sans-serif;
   font-weight: bold;
   margin-bottom: 40px;
@@ -253,7 +246,7 @@ font-family: "Arial Black", sans-serif;
   font-size: 20px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(8,36,57);
+  color: rgb(8, 36, 57);
   margin-bottom: 30px;
   line-height: 27px;
   padding-right: 65px;
@@ -275,12 +268,11 @@ font-family: "Arial Black", sans-serif;
 }
 
 /* PREVIEW OF OUR GUIDE CONTAINER */
-
 .ucat-preview h1 {
   padding-top: 40px;
   text-align: center;
   padding-bottom: 40px;
-  color:#696969;
+  color: #696969;
   font-family: "Arial Black", sans-serif;
 }
 
@@ -296,9 +288,7 @@ font-family: "Arial Black", sans-serif;
   display: table;
 }
 
-
 /* TESTIMONIAL CONTAINER */
-
 .ucat-testimonial {
   position: relative;
 }
@@ -331,12 +321,10 @@ font-family: "Arial Black", sans-serif;
 }
 
 /* PRODUCTS AVAIABLE CONTAINER */
-
 .products-section {
-    background-color: white;
-    margin-bottom:80px;
-    margin-top:10px;
-
+  background-color: white;
+  margin-bottom: 80px;
+  margin-top: 10px;
 }
 
 .products-section .products-available-inner {
@@ -345,7 +333,7 @@ font-family: "Arial Black", sans-serif;
 
 .products-section .products-available-inner .area-heading h1 {
   text-align: center;
-  color:#696969;
+  color: #696969;
   font-family: "Arial Black", sans-serif;
   font-size: 2.5rem;
   padding-bottom: 40px;
@@ -365,7 +353,7 @@ font-family: "Arial Black", sans-serif;
 }
 
 .products-section .products-available-inner .card p {
-  color:#696969;
+  color: #696969;
 }
 
 .products-section .products-available-inner .card img {
@@ -376,22 +364,18 @@ font-family: "Arial Black", sans-serif;
 }
 
 .products-section .products-available-inner .btn {
-display: inline-block;
-border: none;
-color: black;
-font-family: "Arial Black", sans-serif;
+  display: inline-block;
+  border: none;
+  color: black;
+  font-family: "Arial Black", sans-serif;
 }
 
 .products-section .products-available-inner .btn:hover {
   text-decoration: none;
-  color:#696969;
+  color: #696969;
 }
 
-
-
-
 /* BMAT HTML SECTION */
-
 .bmat-hero-banner {
   background: url(../img/background/bmat-container-1.png) no-repeat scroll center center;
   position: relative;
@@ -401,17 +385,15 @@ font-family: "Arial Black", sans-serif;
 }
 
 /* CONTAINER 2 SECTION */
-
-.bmat-service-area .overlay{
+.bmat-service-area .overlay {
   background: url(../img/background/container-2-bmat.png) no-repeat center right;
   position: absolute;
-  left:0;
-  right:0;
-  top:0;
-  bottom:0;
-  height:100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
 }
-
 
 .bmat-service-area .bmat-service-area-inner {
   position: relative;
@@ -452,7 +434,7 @@ font-family: "Arial Black", sans-serif;
   border-radius: 25px;
   font-family: "Arial Black", sans-serif;
   font-size: 25px;
-  background-color:rgb(205, 169, 168)
+  background-color: rgb(205, 169, 168)
 }
 
 .bmat-service-area .bmat-service-area-inner .bmat-service_content .card-deck .card p {
@@ -517,12 +499,11 @@ font-family: "Arial Black", sans-serif;
 }
 
 /* PREVIEW OF OUR GUIDE CONTAINER */
-
 .bmat-preview h1 {
   padding-top: 40px;
   text-align: center;
   padding-bottom: 40px;
-  color:#696969;
+  color: #696969;
   font-family: "Arial Black", sans-serif;
 }
 
@@ -539,7 +520,6 @@ font-family: "Arial Black", sans-serif;
 }
 
 /* TESTIMONIAL CONTAINER */
-
 .bmat-testimonial {
   position: relative;
 }
@@ -573,9 +553,9 @@ font-family: "Arial Black", sans-serif;
 
 /* PRODUCTS AVAIABLE CONTAINER */
 .bmat-products-section {
-    background-color: white;
-    margin-bottom:80px;
-    margin-top:10px;
+  background-color: white;
+  margin-bottom: 80px;
+  margin-top: 10px;
 }
 
 .bmat-products-section .bmat-products-available-inner {
@@ -584,7 +564,7 @@ font-family: "Arial Black", sans-serif;
 
 .bmat-products-section .bmat-products-available-inner .area-heading h1 {
   text-align: center;
-  color:#696969;
+  color: #696969;
   font-family: "Arial Black", sans-serif;
   font-size: 2.5rem;
   padding-bottom: 40px;
@@ -604,7 +584,7 @@ font-family: "Arial Black", sans-serif;
 }
 
 .bmat-products-section .bmat-products-available-inner .card p {
-  color:#696969;
+  color: #696969;
 }
 
 .bmat-products-section .bmat-products-available-inner .card img {
@@ -615,13 +595,13 @@ font-family: "Arial Black", sans-serif;
 }
 
 .bmat-products-section .bmat-products-available-inner .btn {
-display: inline-block;
-border: none;
-color: black;
-font-family: "Arial Black", sans-serif;
+  display: inline-block;
+  border: none;
+  color: black;
+  font-family: "Arial Black", sans-serif;
 }
 
 .bmat-products-section .bmat-products-available-inner .btn:hover {
   text-decoration: none;
-  color:#696969;
+  color: #696969;
 }
