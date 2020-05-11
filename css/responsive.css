@@ -340,12 +340,12 @@
   .bmat-service-area-subcontent .bmat-service-subcontent-inner .overlay {
     background-image: none !important;
     }
-  
+
   .ps-service-area .ps-area-inner .overlay {
     background-image: none !important;
   }
 }
-/* THIS IS AN EXCEPTION FOR IPHONE 5E PHONES AND THE WAY IT RESPONDS TO CERTAIN TEXT SIZE FORMATS */ 
+/* THIS IS AN EXCEPTION FOR IPHONE 5E PHONES AND THE WAY IT RESPONDS TO CERTAIN TEXT SIZE FORMATS */
 
 @media screen and (device-aspect-ratio: 40/71) {
 
@@ -355,9 +355,8 @@
   .single-feature-content h5 {
     font-size: 15px;
   }
-  
+
   .bmat-service-area .overlay{
     background-image:none !important;
   }
-  }
-  
+}
