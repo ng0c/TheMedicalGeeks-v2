@@ -1,4 +1,4 @@
-/* INTERVIEW PAGE */ 
+/* INTERVIEW PAGE */
 
 .interview-hero img {
   background-size: cover;
@@ -90,16 +90,25 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.interview-products-available {
+background-color: white;
+margin-bottom:80px;
+margin-top:10px;
+}
+
 .interview-products-available .products-available-inner {
-  min-height: 900px;
+  min-height: 700px;
 }
 
 .interview-products-available .products-available-inner h1 {
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
   color:#696969;
   font-family: "Arial Black", sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 40px;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .interview-products-available .products-available-inner .card {
@@ -136,9 +145,9 @@ font-family: "Arial Black", sans-serif;
 }
 
 
-/* UCAT CSS PAGE */ 
+/* UCAT CSS PAGE */
 
-/* CONTAINER 1 SECTION */ 
+/* CONTAINER 1 SECTION */
 
 .ucat-hero-banner {
   background: url(../img/background/ucat-container-1.png) no-repeat scroll center center;
@@ -149,7 +158,7 @@ font-family: "Arial Black", sans-serif;
 }
 
 
-/* CONTAINER 2 SECTION */ 
+/* CONTAINER 2 SECTION */
 
 .ucat-service-area .overlay{
   background: url(../img/background/container-2-ucat.png) no-repeat center right;
@@ -158,7 +167,7 @@ font-family: "Arial Black", sans-serif;
   right:0;
   top:0;
   bottom:0;
-  height:100%;  
+  height:100%;
 }
 
 
@@ -218,7 +227,7 @@ font-family: "Arial Black", sans-serif;
 
 .ucat-service-area-subcontent {
   position: relative;
-  background-color: rgb(204,227,240) 
+  background-color: rgb(204,227,240)
 }
 
 .area-padding {
@@ -235,7 +244,7 @@ font-family: "Arial Black", sans-serif;
   font-size: 40px;
   color: rgb(8,36,57);
   font-family: "Arial Black", sans-serif;
-  font-weight: bold; 
+  font-weight: bold;
   margin-bottom: 40px;
   line-height: 58px;
 }
@@ -288,7 +297,7 @@ font-family: "Arial Black", sans-serif;
 }
 
 
-/* TESTIMONIAL CONTAINER */ 
+/* TESTIMONIAL CONTAINER */
 
 .ucat-testimonial {
   position: relative;
@@ -330,101 +339,54 @@ font-family: "Arial Black", sans-serif;
 
 }
 
-.products-available-header {
-  margin-top: 50px;
-  margin-bottom:50px;
-  background: white;
-  border:none;
-  text-align:center;
-  font-family:"Arial Black";
-  font-weight:bold;
-  font-size: 50px;
-  color:#696969
+.products-section .products-available-inner {
+  min-height: 700px;
 }
 
-.products-section .card {
-      max-width: 300px;
-      max-height: 500px;
-      outline:none;
-      margin: auto;
-      text-align: center;
-      font-family: arial;
-      background-color: white;
-      border-radius: 5px;
-      border: 1px solid #000000;
-
-}
-
-.products-section .img{
-    align-self:center;
-    padding-top: 10px;
-
-}
-
-.filler1 {
-
-  border-top-width: 20px;
-  border-top: grey;
-  border-top-style:solid;
-  padding-bottom:20px;
-
-}
-
-.products-section h1 {
-  font-size: 20px;
-  text-align:center;
-  color:black;
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight:bold;
-
-}
-
-.products-section p2 { 
-    font-size:13px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color:grey;
-    text-align:center;
-
-}
-
-.products-section .price {
-  color: rgb(0, 0, 0);
-  font-size: 18px;
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight:bold;
-
-}
-
-.filler2 { 
-    padding-bottom:30px;
-    margin-bottom: 30px;
-    background-color: white;
-    max-height: 30px;
-    border-bottom-width: 30px;
-    border-bottom: grey;
-    border-bottom-style:solid;
-}
-
-.card button {
-  border-right:white;
-  border-bottom:white;
-  border-left:white;
-  border-top:white;
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+.products-section .products-available-inner .area-heading h1 {
   text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 20px;
-  font-weight: bold;
+  color:#696969;
+  font-family: "Arial Black", sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 40px;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.products-section .products-available-inner .card {
+  border-style: solid;
+  border-color: black;
   font-family: Arial, Helvetica, sans-serif;
-    }
+}
 
+.products-section .products-available-inner .card .card-title {
+  font-family: "Arial Black", sans-serif;
+}
 
-.card button:hover {
-  opacity: 0.7;
-    }
+.products-section .products-available-inner .card p {
+  color:#696969;
+}
+
+.products-section .products-available-inner .card img {
+  height: 32%;
+  width: 32%;
+  align-self: center;
+  padding-top: 10px;
+}
+
+.products-section .products-available-inner .btn {
+display: inline-block;
+border: none;
+color: black;
+font-family: "Arial Black", sans-serif;
+}
+
+.products-section .products-available-inner .btn:hover {
+  text-decoration: none;
+  color:#696969;
+}
+
 
 
 
@@ -438,7 +400,7 @@ font-family: "Arial Black", sans-serif;
   min-height: 450px;
 }
 
-/* CONTAINER 2 SECTION */ 
+/* CONTAINER 2 SECTION */
 
 .bmat-service-area .overlay{
   background: url(../img/background/container-2-bmat.png) no-repeat center right;
@@ -447,7 +409,7 @@ font-family: "Arial Black", sans-serif;
   right:0;
   top:0;
   bottom:0;
-  height:100%;  
+  height:100%;
 }
 
 
@@ -456,7 +418,7 @@ font-family: "Arial Black", sans-serif;
   overflow: hidden;
   width: 100%;
   min-height: 900px;
-  background-color: rgb(205, 169, 168) 
+  background-color: rgb(205, 169, 168)
 }
 
 .bmat-service-area .bmat-service-area-inner .bmat-service_content {
@@ -490,7 +452,7 @@ font-family: "Arial Black", sans-serif;
   border-radius: 25px;
   font-family: "Arial Black", sans-serif;
   font-size: 25px;
-  background-color:rgb(205, 169, 168) 
+  background-color:rgb(205, 169, 168)
 }
 
 .bmat-service-area .bmat-service-area-inner .bmat-service_content .card-deck .card p {
@@ -507,7 +469,7 @@ font-family: "Arial Black", sans-serif;
 
 .bmat-service-area-subcontent {
   position: relative;
-  background-color: rgb(205, 169, 168) 
+  background-color: rgb(205, 169, 168)
 }
 
 .area-padding {
@@ -524,7 +486,7 @@ font-family: "Arial Black", sans-serif;
   font-size: 40px;
   color: rgb(255, 255, 255);
   font-family: "Arial Black", sans-serif;
-  font-weight: bold; 
+  font-weight: bold;
   margin-bottom: 40px;
   line-height: 58px;
 }
@@ -576,7 +538,7 @@ font-family: "Arial Black", sans-serif;
   display: table;
 }
 
-/* TESTIMONIAL CONTAINER */ 
+/* TESTIMONIAL CONTAINER */
 
 .bmat-testimonial {
   position: relative;
@@ -610,106 +572,56 @@ font-family: "Arial Black", sans-serif;
 }
 
 /* PRODUCTS AVAIABLE CONTAINER */
-
-.products-section {
+.bmat-products-section {
     background-color: white;
     margin-bottom:80px;
     margin-top:10px;
-
 }
 
-.products-available-header {
-  margin-top: 50px;
-  margin-bottom:50px;
-  background: white;
-  border:none;
-  text-align:center;
-  font-family:"Arial Black";
-  font-weight:bold;
-  font-size: 50px;
-  color:#696969
+.bmat-products-section .bmat-products-available-inner {
+  min-height: 700px;
 }
 
-.products-section .card {
-      max-width: 300px;
-      max-height: 500px;
-      outline:none;
-      margin: auto;
-      text-align: center;
-      font-family: arial;
-      background-color: white;
-      border-radius: 5px;
-      border: 1px solid #000000;
-
-}
-
-.products-section .img{
-    align-self:center;
-    padding-top: 10px;
-
-}
-
-.filler1 {
-
-  border-top-width: 20px;
-  border-top: grey;
-  border-top-style:solid;
-  padding-bottom:20px;
-
-}
-
-.products-section h1 {
-  font-size: 20px;
-  text-align:center;
-  color:black;
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight:bold;
-
-}
-
-.products-section p2 { 
-    font-size:13px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color:grey;
-    text-align:center;
-
-}
-
-.products-section .price {
-  color: rgb(0, 0, 0);
-  font-size: 18px;
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight:bold;
-
-}
-
-.filler2 { 
-    padding-bottom:30px;
-    margin-bottom: 30px;
-    background-color: white;
-    max-height: 30px;
-    border-bottom-width: 30px;
-    border-bottom: grey;
-    border-bottom-style:solid;
-}
-
-.card button {
-  border-right:white;
-  border-bottom:white;
-  border-left:white;
-  border-top:white;
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+.bmat-products-section .bmat-products-available-inner .area-heading h1 {
   text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 20px;
-  font-weight: bold;
+  color:#696969;
+  font-family: "Arial Black", sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 40px;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.bmat-products-section .bmat-products-available-inner .card {
+  border-style: solid;
+  border-color: black;
   font-family: Arial, Helvetica, sans-serif;
-    }
+}
 
+.bmat-products-section .bmat-products-available-inner .card .card-title {
+  font-family: "Arial Black", sans-serif;
+}
 
-.card button:hover {
-  opacity: 0.7;
-    }
+.bmat-products-section .bmat-products-available-inner .card p {
+  color:#696969;
+}
+
+.bmat-products-section .bmat-products-available-inner .card img {
+  height: 32%;
+  width: 32%;
+  align-self: center;
+  padding-top: 10px;
+}
+
+.bmat-products-section .bmat-products-available-inner .btn {
+display: inline-block;
+border: none;
+color: black;
+font-family: "Arial Black", sans-serif;
+}
+
+.bmat-products-section .bmat-products-available-inner .btn:hover {
+  text-decoration: none;
+  color:#696969;
+}
