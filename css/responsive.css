@@ -66,6 +66,10 @@
   .bmat-service-area .overlay{
     background-image: none !important;
   }
+
+  .ps-service-area .ps-area-inner .overlay {
+    background-image: none !important;
+}
 }
 
 @media (max-width: 480px) {
@@ -183,6 +187,10 @@
   .bmat-service-area .overlay{
     background-image: none !important;
 }
+
+  .ps-service-area .ps-area-inner .overlay {
+    background-image: none !important;
+}
 }
 
 @media (max-width: 767px) {
@@ -258,7 +266,9 @@
 
   .bmat-service-area .overlay{
     background-image: none !important;
-
+}
+  .ps-service-area .ps-area-inner .overlay {
+    background-image: none !important;
 }
 }
 
@@ -330,6 +340,10 @@
   .bmat-service-area-subcontent .bmat-service-subcontent-inner .overlay {
     background-image: none !important;
     }
+  
+  .ps-service-area .ps-area-inner .overlay {
+    background-image: none !important;
+  }
 }
 /* THIS IS AN EXCEPTION FOR IPHONE 5E PHONES AND THE WAY IT RESPONDS TO CERTAIN TEXT SIZE FORMATS */ 
 
