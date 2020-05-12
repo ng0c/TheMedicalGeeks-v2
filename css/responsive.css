@@ -43,6 +43,10 @@
     padding-left: 0px;
   }
 
+  .contact-area iframe {
+    max-width: 400px;
+  }
+
   .home_banner_area .banner_inner .overlay {
     background-image: none !important;
   }
