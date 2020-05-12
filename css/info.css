@@ -181,15 +181,42 @@
 /* OUR AIM SECTION */
 .our-aim-area {
   min-height: 650px;
-  background-color: rgb(205, 169, 168)
+  background-color: rgb(205, 169, 168);
 }
 
 .our-aim-area h2 {
   padding-bottom: 10px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  font-size: 40px;
 }
 
 .our-aim-area p {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* WHY TMG SECTION */
+.why-tmg-area {
+  min-height: 650px;
+  justify-content: center;
+  background-color: #eee;
+}
+
+.why-tmg-area h2 {
+  padding-bottom: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+}
+
+.why-tmg-area .card-deck .card {
+  color: #000000;
+  border-style: solid;
+  border-color: black;
+}
+
+.why-tmg-area .card-deck .card h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
