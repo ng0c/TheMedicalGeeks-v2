@@ -1,6 +1,6 @@
 .about-hero-banner {
   background-color: rgb(174, 39, 45);
-  min-height: 450px;
+  min-height: 650px;
 }
 
 .about-hero-banner h2 {
@@ -49,6 +49,7 @@
 .our-team {
   padding: 60px 0;
   background-color: #eee;
+  padding-top: 150px;
 }
 
 .our-team .section-title {
