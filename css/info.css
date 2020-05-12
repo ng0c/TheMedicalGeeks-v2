@@ -1,15 +1,24 @@
 .about-hero-banner {
-  background-color: rgb(174, 39, 45);
-  min-height: 650px;
+  background: url(../img/background/about-us-container-1.png) no-repeat scroll center center;
+  position: relative;
+  min-height: 590px;
+  margin-top: 5.4em;
+  background-color: rgb(31, 118, 192);
 }
 
 .about-hero-banner h2 {
-  color: white;
+  color: #eee;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  padding-top: 80px;
+  padding-top: 90px;
+  font-style: italic;
+  font-size: 30px;
+  line-height: 1.5em;
 }
 
+.about-hero-banner p {
+  color: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+}
 /* SUBNAV */
 .sub-nav {
   overflow: hidden;
@@ -181,7 +190,7 @@
 /* OUR AIM SECTION */
 .our-aim-area {
   min-height: 650px;
-  background-color: rgb(205, 169, 168);
+  background-color: #6098d1;
 }
 
 .our-aim-area h2 {
