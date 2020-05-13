@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .about-hero-banner {
   background: url(../img/background/about-us-container-1.png) no-repeat scroll center center;
   position: relative;
