@@ -757,3 +757,81 @@ font-family: "Arial Black", sans-serif;
   text-decoration: none;
   color:#696969;
 }
+
+/* FREEBIES */
+
+.freebies-hero-banner {
+  background: url(../img/background/freebies-container.png) no-repeat scroll center center;
+  position: relative;
+  padding: 70px 0;
+  background-size: cover;
+  min-height: 450px;
+}
+
+.freebies-area-heading h1 {
+  margin-top: 50px;
+  margin-bottom: 120px;
+  position: relative;
+  text-align: center;
+  font-size:50px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;  
+  color: #696969
+}
+
+
+.freebies-card-area {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.freebies-card-area .card-deck .card {
+  color: white;
+  border: none;
+}
+
+.freebies-card-area .card-deck .card .card-body {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+.freebies-card-area .card-deck .card .card-body h4 {
+  font-family: "Arial Black", sans-serif;
+  color: black;
+  margin-top:30px;
+  text-align:center;
+}
+
+.freebies-card-area .card-deck .card .card-body p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color:black;
+  text-align: center;
+}
+
+.freebies-card-area .card-deck .card .card-body .btn {
+  font-family: "Arial Black", sans-serif;
+}
+
+.freebies-card-deck img {
+  max-width: 40%;
+}
+
+.freebies-btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.freebies-btn:hover {
+  background-color: RoyalBlue;
+}
+
+
