@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>The Medical Geeks | Meet The Team</title>
+  <link rel="icon" href="images/TMG.png" type="image/x-icon">
+</head>
+
+<body>
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light navbar-inverse navbar-fixed-top bg-none">
+    <img src="images/TMG.png" width="50" height="50" class="d-inline-block align-top" alt="" id="logo"
+      href="./index.html">
+    <a class="navbar-brand" id="title" href="./index.html">TheMedicalGeeks</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" id="navbarDropdownMenuLink" href="./index.html">Home <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">About us</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="about_us.html">Our Aim</a>
+            <a class="dropdown-item" href="meet_the_team.html">Meet The Team</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Services</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="personal_statement.html">Personal Statement</a>
+            <a class="dropdown-item" href="bmat_guide.html">BMAT Service</a>
+            <a class="dropdown-item" href="interview_service.html">Interview Service</a>
+            <a class="dropdown-item" href="UCAT.html">UCAT Service</a>
+            <a class="dropdown-item" href="faqs.html">FAQs</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="navbarDropdownMenuLink" href="reviews.html">Reviews</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="faqs-head">
+    <h1>Frequently Asked Questions</h1>
+  </div>
+
+  <button class="accordion">Do you do bursaries?</button>
+  <div class="panel">
+    <p>We don't want money to be a barrier of entry into medical school. We offer bursaries to those eligible for it.
+      Want to know if you're eligible? Send us an email and we'll get you to fill out a form to complete. We will then
+      process this and if it all checks out, we'll send you a discount code to apply to our products!</p>
+  </div>
+
+  <button class="accordion">Am I eligible for a bursary?</button>
+  <div class="panel">
+    <p>Send us an email and we'll get you to fill our form to see if you are eligible for a bursary.
+      themedicalgeeks@gmail.com</p>
+  </div>
+
+  <button class="accordion">What is included in the bursary?</button>
+  <div class="panel">
+    <p>A discount code unique to you is sent so you can apply this to products that you would like.</p>
+  </div>
+
+  <button class="accordion">Does the bursary include all products?</button>
+  <div class="panel">
+    <p>A discount code is sent to you applicable to you for whatever product that you would like. Each discount code is
+      applicable to that specific product. We will let you know in the email what code works with what product.</p>
+  </div>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+  </script>
+
+  <footer class="footer">
+    <div class="container" id="footer.c">
+      <div class="row">
+        <div class="col">
+          <nav class="footer__nav">
+            <ul>
+              <li><a href="about_us.html">About Us</a></li>
+              <li><a href="contact_us.html">Contact</a></li>
+              <li><a href="payment.html">Payment</a></li>
+              <li><a href="faqs.html">FAQs</a></li>
+              <li><a href="tnc.html">T&C</a></li>
+            </ul>
+          </nav>
+          <div class="footer__content">
+            <p class="footer__copy">&copy; 2020 TheMedicalGeeks</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</html>
