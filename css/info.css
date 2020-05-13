@@ -256,8 +256,37 @@ html {
 
 /* FAQs SECTION */
 .faqs-area {
-  min-height: 650px;
-  justify-content: center;
-  background-color: #eee;
-  padding-bottom:100px;
+  padding-top: 100px;
+}
+
+.faqs-area h1 {
+  padding-top: 30px;
+  text-align: center;
+  font-family: "Arial Black", sans-serif;
+  color: rgb(7, 36, 56);
+}
+
+.faqs-area p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(7, 36, 56);
+}
+.faqs-area .card {
+  border-style: solid;
+  border-color: rgb(7, 36, 56);
+}
+
+.faqs-area .card img {
+  align-self: center;
+}
+
+.faqs-area .card .card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-top: 20px;
+  color: rgb(7, 36, 56);
 }
