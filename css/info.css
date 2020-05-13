@@ -294,6 +294,9 @@ html {
 .accordion-area {
   min-height: 500px;
   padding-top: 100px;
+  padding-bottom: 90px;
+  margin-right: 2em;
+  margin-left: 2em;
 }
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
@@ -330,5 +333,4 @@ html {
   font-size: 13px;
   color: #777;
   float: right;
-  margin-left: 5px;
 }
