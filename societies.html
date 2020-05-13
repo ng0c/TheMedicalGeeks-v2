@@ -1,64 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="js/jquery.min.js"></script>
-  <title>The Medical Geeks | Meet The Team</title>
-  <link rel="icon" href="images/TMG.png" type="image/x-icon">
+  <link rel="icon" href="img/logo.png" type="img/png">
+  <title>The Medical Geeks | Welcome</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="screen, projection" />
+  <link href="css/responsive.css" rel="stylesheet" type="text/css" media="screen, projection" />
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="screen, projection" />
+  <link href="css/info.css" rel="stylesheet" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
-<body>
-  <nav id="navbar" class="navbar navbar-expand-lg navbar-light navbar-inverse navbar-fixed-top bg-none">
-    <img src="images/TMG.png" width="50" height="50" class="d-inline-block align-top" alt="" id="logo"
-      href="./index.html">
-    <a class="navbar-brand" id="title" href="./index.html">TheMedicalGeeks</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" id="navbarDropdownMenuLink" href="./index.html">Home <span
-              class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">About us</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="about_us.html">Our Aim</a>
-            <a class="dropdown-item" href="meet_the_team.html">Meet The Team</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">Services</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="personal_statement.html">Personal Statement</a>
-            <a class="dropdown-item" href="bmat_guide.html">BMAT Service</a>
-            <a class="dropdown-item" href="interview_service.html">Interview Service</a>
-            <a class="dropdown-item" href="UCAT.html">UCAT Service</a>
-            <a class="dropdown-item" href="faqs.html">FAQs</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="navbarDropdownMenuLink" href="reviews.html">Reviews</a>
-        </li>
-      </ul>
+<body data-spy="scroll" data-target=".home_banner_content" data-offset="50">
+  <header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #5985BA">
+        <a class="navbar-brand" href="./index.html">
+          <img src="img/logo.png" width="60" height="60" class="d-inline-block align-center" alt="">TheMedicalGeeks
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./interview.html">Interview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./ucat.html">UCAT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./bmat.html">BMAT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./personal-statement.html">Personal Statement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./freebies.html">Freebies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
-  </nav>
-  <div id="faqs-head">
+  </header>
+
+  <div class="faqs-area">
     <h1>Frequently Asked Questions</h1>
+    <p>Societies</p>
   </div>
 
+<section class="accordion-area area-padding">
   <button class="accordion">Can you come to our society to give a talk?</button>
   <div class="panel">
     <p>Send us an email and we'll see if we can arrange a visit for you! themedicalgeeks@gmail.com</p>
@@ -86,34 +83,97 @@
       });
     }
   </script>
+</section>
 
 
-  <footer class="footer">
-    <div class="container" id="footer.c">
+  <footer class="page-footer font-small blue pt-4">
+    <div class="container-fluid text-center text-md-left">
       <div class="row">
-        <div class="col">
-          <nav class="footer__nav">
-            <ul>
-              <li><a href="about_us.html">About Us</a></li>
-              <li><a href="contact_us.html">Contact</a></li>
-              <li><a href="payment.html">Payment</a></li>
-              <li><a href="faqs.html">FAQs</a></li>
-              <li><a href="tnc.html">T&C</a></li>
-            </ul>
-          </nav>
-          <div class="footer__content">
-            <p class="footer__copy">&copy; 2020 TheMedicalGeeks</p>
-          </div>
+        <div class="col-md-4 mx-auto">
+          <a class="footer-logo" style="font-family: Arial Black, sans-serif; font-size: 25px;">
+            <img src="img/logo.png" width="60" height="60" class="d-inline-block align-center" alt=""><strong>TheMedicalGeeks
+            </strong>
+          </a>
+          <p><i>Founded by medical students, for future medical students</i></p>
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-2 mx-auto">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Services</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="./ucat.html">UCAT</a>
+            </li>
+            <li>
+              <a href="./bmat.html">BMAT</a>
+            </li>
+            <li>
+              <a href="./personal-statement.html">Personal Statemnet</a>
+            </li>
+            <li>
+              <a href="./interview.html">Interview</a>
+            </li>
+            <li>
+              <a href="./faqs.html">FAQs</a>
+            </li>
+          </ul>
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-2 mx-auto">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Freebies</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#">UCAT Questions</a>
+            </li>
+            <li>
+              <a href="#">BMAT Questions</a>
+            </li>
+            <li>
+              <a href="#">PS Examples</a>
+            </li>
+            <li>
+              <a href="#">Interview Questions</a>
+            </li>
+          </ul>
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-2 mx-auto">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">About Us</h5>
+          <p>TheMedicalGeeks<br>71-75 Shellon Street</br>Covent Garden<br>London</br>WC2H 9JQ</p>
         </div>
       </div>
     </div>
+    <hr>
+    <div class="row d-flex align-items-center">
+      <div class="col-md-7 col-lg-8">
+        <p class="footer-copyright text-center text-md-left">© 2020
+          <a href="./index.html">
+            <strong>TheMedicalGeeks</strong>
+          </a>
+        </p>
+      </div>
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+        <div class="footer-terms text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a href="./tnc.html">T&Cs</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Privacy & Cookies</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
   </footer>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </html>
