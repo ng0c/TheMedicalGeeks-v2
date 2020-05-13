@@ -7,7 +7,6 @@
   min-height: 450px;
 }
 
-
 .interview-area .area-heading h1 {
   text-align: center;
   padding-bottom: 40px;
@@ -608,11 +607,8 @@
   color: #696969;
 }
 
-
-/* PERSONAL STATEMENT CSS PAGE */ 
-
-/* CONTAINER 1 SECTION */ 
-
+/* PERSONAL STATEMENT CSS PAGE */
+/* CONTAINER 1 SECTION */
 .ps-hero-banner {
   background: url(../img/background/container-1-ps.png) no-repeat scroll center center;
   position: relative;
@@ -620,7 +616,6 @@
   background-size: cover;
   min-height: 450px;
 }
-
 
 .ps-hero img {
   background-size: cover;
@@ -633,7 +628,7 @@
   text-align: center;
   padding-bottom: 40px;
   padding-top: 100px;
-  color:#696969;
+  color: #696969;
   font-family: "Arial Black", sans-serif;
 }
 
@@ -651,7 +646,7 @@
   padding-top: 120px;
   text-align: center;
   padding-bottom: 40px;
-  color:#696969;
+  color: #696969;
   font-family: "Arial Black", sans-serif;
 }
 
@@ -669,7 +664,7 @@
 
 .ps-service-area {
   padding-top: 150px;
-  background-color: rgb(255,99,99)
+  background-color: rgb(255, 99, 99)
 }
 
 .ps-service-area h1 {
@@ -709,7 +704,7 @@
 
 .ps-service-area .ps-area-inner .card {
   border: none;
-  background-color: rgb(255,99,99);
+  background-color: rgb(255, 99, 99);
   padding-top: 40px;
   padding-right: 30px;
   font-family: Arial, Helvetica, sans-serif;
@@ -723,7 +718,7 @@
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
-  color:#696969;
+  color: #696969;
   font-family: "Arial Black", sans-serif;
 }
 
@@ -738,7 +733,7 @@
 }
 
 .ps-products-available .products-available-inner .card p {
-  color:#696969;
+  color: #696969;
 }
 
 .ps-products-available .products-available-inner .card img {
@@ -749,19 +744,18 @@
 }
 
 .ps-products-available .products-available-inner .btn {
-display: inline-block;
-border: none;
-color: black;
-font-family: "Arial Black", sans-serif;
+  display: inline-block;
+  border: none;
+  color: black;
+  font-family: "Arial Black", sans-serif;
 }
 
 .ps-products-available .products-available-inner .btn:hover {
   text-decoration: none;
-  color:#696969;
+  color: #696969;
 }
 
 /* FREEBIES */
-
 .freebies-hero-banner {
   background: url(../img/background/freebies-container.png) no-repeat scroll center center;
   position: relative;
@@ -775,12 +769,11 @@ font-family: "Arial Black", sans-serif;
   margin-bottom: 120px;
   position: relative;
   text-align: center;
-  font-size:50px;
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight: bold;  
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
   color: #696969
 }
-
 
 .freebies-card-area {
   position: relative;
@@ -801,14 +794,14 @@ font-family: "Arial Black", sans-serif;
 .freebies-card-area .card-deck .card .card-body h4 {
   font-family: "Arial Black", sans-serif;
   color: black;
-  margin-top:30px;
-  text-align:center;
+  margin-top: 30px;
+  text-align: center;
 }
 
 .freebies-card-area .card-deck .card .card-body p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color:black;
+  color: black;
   text-align: center;
 }
 
@@ -831,9 +824,6 @@ font-family: "Arial Black", sans-serif;
   text-align: center;
 }
 
-
 .freebies-btn:hover {
   background-color: RoyalBlue;
 }
-
-

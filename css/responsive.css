@@ -63,17 +63,17 @@
     background-image: none !important;
   }
 
-  .ucat-service-area .overlay{
+  .ucat-service-area .overlay {
     background-image: none !important;
   }
 
-  .bmat-service-area .overlay{
+  .bmat-service-area .overlay {
     background-image: none !important;
   }
 
   .ps-service-area .ps-area-inner .overlay {
     background-image: none !important;
-}
+  }
 }
 
 @media (max-width: 480px) {
@@ -119,11 +119,11 @@
     margin-top: 5em;
   }
 
-  .ucat-service-area .overlay{
+  .ucat-service-area .overlay {
     background-image: none !important;
   }
 
-  .bmat-service-area .overlay{
+  .bmat-service-area .overlay {
     background-image: none !important;
   }
 }
@@ -184,17 +184,17 @@
     background-image: none !important;
   }
 
-  .ucat-service-area .overlay{
+  .ucat-service-area .overlay {
     background-image: none !important;
   }
 
-  .bmat-service-area .overlay{
+  .bmat-service-area .overlay {
     background-image: none !important;
-}
+  }
 
   .ps-service-area .ps-area-inner .overlay {
     background-image: none !important;
-}
+  }
 }
 
 @media (max-width: 767px) {
@@ -264,16 +264,17 @@
     background-image: none !important;
   }
 
-  .ucat-service-area .overlay{
+  .ucat-service-area .overlay {
     background-image: none !important;
-}
+  }
 
-  .bmat-service-area .overlay{
+  .bmat-service-area .overlay {
     background-image: none !important;
-}
+  }
+
   .ps-service-area .ps-area-inner .overlay {
     background-image: none !important;
-}
+  }
 }
 
 @media (max-width: 1199px) {
@@ -329,38 +330,38 @@
     background-image: none !important;
   }
 
-  .ucat-service-area .overlay{
+  .ucat-service-area .overlay {
     background-image: none !important;
   }
 
   .ucat-service-area-subcontent .ucat-service-subcontent-inner .overlay {
     background-image: none !important;
-    }
+  }
 
-  .bmat-service-area .overlay{
-      background-image:none !important;
+  .bmat-service-area .overlay {
+    background-image: none !important;
   }
 
   .bmat-service-area-subcontent .bmat-service-subcontent-inner .overlay {
     background-image: none !important;
-    }
+  }
 
   .ps-service-area .ps-area-inner .overlay {
     background-image: none !important;
   }
 }
+
 /* THIS IS AN EXCEPTION FOR IPHONE 5E PHONES AND THE WAY IT RESPONDS TO CERTAIN TEXT SIZE FORMATS */
-
 @media screen and (device-aspect-ratio: 40/71) {
-
-  .ucat-service-area .overlay{
-      background-image: none !important;
+  .ucat-service-area .overlay {
+    background-image: none !important;
   }
+
   .single-feature-content h5 {
     font-size: 15px;
   }
 
-  .bmat-service-area .overlay{
-    background-image:none !important;
+  .bmat-service-area .overlay {
+    background-image: none !important;
   }
 }

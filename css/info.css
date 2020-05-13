@@ -23,6 +23,7 @@ html {
   color: #eee;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 /* SUBNAV */
 .sub-nav {
   overflow: hidden;
@@ -31,10 +32,10 @@ html {
 
 .sub-nav .nav-item {
   float: left;
-      width: 50%;
-      border: 1px solid #c3c3c3;
-      padding: 6px;
-      padding: .375rem;
+  width: 50%;
+  border: 1px solid #c3c3c3;
+  padding: 6px;
+  padding: .375rem;
 }
 
 .sub-nav a {
@@ -50,7 +51,6 @@ html {
   background-color: #eee;
   color: #5985BA;
 }
-
 
 /* MEET THE TEAM CARDS */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
@@ -215,7 +215,7 @@ html {
   min-height: 650px;
   justify-content: center;
   background-color: #eee;
-  padding-bottom:100px;
+  padding-bottom: 100px;
 }
 
 .why-tmg-area h2 {
@@ -225,7 +225,6 @@ html {
   text-align: center;
   font-size: 40px;
   margin-top: 70px;
-
 }
 
 .why-tmg-area .card-deck .card {
@@ -275,6 +274,7 @@ html {
   font-size: 20px;
   color: rgb(7, 36, 56);
 }
+
 .faqs-area .card {
   border-style: solid;
   border-color: rgb(7, 36, 56);
@@ -298,6 +298,7 @@ html {
   margin-right: 2em;
   margin-left: 2em;
 }
+
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #eee;
@@ -329,7 +330,8 @@ html {
 }
 
 .accordion:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: #777;
   float: right;
