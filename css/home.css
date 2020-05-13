@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .home_banner_area .banner_inner .overlay {
   background: url(../img/background/front-landing-page_.png) no-repeat;
   position: absolute;
