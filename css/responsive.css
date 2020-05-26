@@ -365,3 +365,535 @@
     background-image: none !important;
   }
 }
+
+
+/* BLOG PAGES */
+@media screen and (min-width: 300px) {
+  .blog-heading h1{
+    font-size:30px;
+  }
+
+  .blog-heading {
+    padding-right: 0em;
+    padding-top: 8em;
+    padding-left: 0em;
+    padding-bottom:3em;
+  }
+
+  .blog-featured {
+    padding-right:0.1em;
+    padding-left:0.1em;
+
+  }
+
+  .blog-featured h1 {
+    text-align:left;
+    font-size:1em;
+    padding-top:1em;
+    padding-left:1em;
+
+  }
+  .blog-card .card-img, .card-feature-img-top {
+    border-radius: 10%;
+    margin-bottom: 2em;
+    margin-top:2em;
+    min-width: 90%;
+  
+  }
+
+  .blog-featured-caption {
+    border-radius: 0.8em;
+  }
+
+  .blog-featured-caption h5 {
+    font-size: 2em;
+  }
+
+  .blog-card-deck {
+    padding-top:1.5em;
+
+  }
+
+  .blog-card-deck .card2-img-top {
+    padding-right: 1.25em;
+    padding-left: 1.25em;
+    border-radius: 1.25em;
+    margin-top:3em;
+    border-radius: 10%;
+
+
+  }
+
+  .blog-featured h8 {
+    text-align:left;
+    font-size:1.5em;
+    padding-top:1em;
+    font-weight:bold;
+    font-family: sans-serif;
+  }
+
+  .categories h1 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+  }
+
+  .teaser-section h1 {
+    text-align: center;
+    font-size:1.2em;
+
+  }
+
+  .teaser-section p {
+    font-family:sans-serif;
+    font-size:1.2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+  .teaser-buy-now  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .teaser-buy-now button {
+    border-radius: 0.4em;
+    margin-top:1.5em;
+    margin-bottom:0.7em;
+    font-size:1.3em;
+  }
+
+  .action-buttons-free{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:0.8em;
+    text-decoration: none;
+  }
+
+  .action-buttons-free .teaser-free button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2em;
+    font-size:1.3em;
+    text-decoration: none;
+  }
+  
+
+  .explore-card-area .card-deck .card-img-top {
+    min-width: 100%;
+  }
+
+
+@media screen and (min-width: 425px) {
+  .blog-heading h1{
+    font-size:30px;
+  }
+
+  .blog-heading {
+    padding-right: 0em;
+    padding-top: 5em;
+    padding-left: 0em;
+    padding-bottom:3em;
+  }
+
+  .blog-featured {
+    padding-right:0.1em;
+    padding-left:0.1em;
+
+  }
+
+  .blog-featured h1 {
+    text-align:left;
+    font-size:1em;
+    padding-top:1em;
+    padding-left:1em;
+
+  }
+  .blog-card .card-img, .card-feature-img-top {
+    border-radius: 10%;
+    margin-bottom: 2em;
+    margin-top:2em;
+    min-width: 90%;
+  }
+
+  .blog-featured-caption {
+    border-radius: 0.8em;
+  }
+
+  .blog-featured-caption h5 {
+    font-size: 2em;
+  }
+
+  .blog-card-deck {
+    padding-top:1.5em;
+
+  }
+
+  .blog-card-deck .card2-img-top {
+    padding-right: 1.25em;
+    padding-left: 1.25em;
+    border-radius: 1.25em;
+    margin-top:3em;
+    border-radius: 10%;
+
+
+  }
+
+  .blog-featured h8 {
+    text-align:left;
+    font-size:1.5em;
+    padding-top:1em;
+    font-weight:bold;
+    font-family: sans-serif;
+  }
+
+  .categories h1 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+
+  }
+
+  .teaser-section h1 {
+    text-align: center;
+    font-size:1.2em;
+
+  }
+
+  .teaser-section p {
+    font-family:sans-serif;
+    font-size:1.2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+  .teaser-buy-now  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .teaser-buy-now button {
+    border-radius: 0.4em;
+    margin-top:1.5em;
+    margin-bottom:0.7em;
+    font-size:1.3em;
+  }
+
+  .action-buttons-free{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:0.8em;
+    text-decoration: none;
+  }
+
+  .action-buttons-free .teaser-free button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2em;
+    font-size:1.3em;
+    text-decoration: none;
+  }
+  
+
+  .explore-card-area .card-deck .card-img-top {
+    min-width: 100%;
+  }
+
+
+
+@media screen and (min-width: 426px){
+  .blog-heading h1 {
+    font-size:2em;
+    margin-top:1em;
+  }
+
+  .blog-heading {
+    padding-right: 0em;
+    padding-top: 8em;
+    padding-left: 0em;
+    padding-bottom:3em;
+  }
+
+  .blog-featured {
+    padding-right:0.1em;
+    padding-left:0.1em;
+
+  }
+
+  .blog-featured h1 {
+    text-align:left;
+    font-size:1em;
+    padding-top:1em;
+    padding-left:1em;
+
+  }
+  .blog-card .card-img, .card-feature-img-top {
+    border-radius: 10%;
+    margin-bottom: 2em;
+    margin-top:2em;
+    min-width: 90%;
+  }
+
+  .blog-featured-caption {
+    border-radius: 0.8em;
+  }
+
+  .blog-featured-caption h5 {
+    font-size: 2em;
+  }
+
+  .blog-card-deck {
+    padding-top:1.5em;
+
+  }
+
+  .blog-card-deck .card2-img-top {
+    padding-right: 1.25em;
+    padding-left: 1.25em;
+    border-radius: 1.25em;
+    margin-top:3em;
+    border-radius: 10%;
+
+
+  }
+
+  .blog-featured h8 {
+    text-align:left;
+    font-size:1.5em;
+    padding-top:1em;
+    font-weight:bold;
+    font-family: sans-serif;
+  }
+
+  .categories h1 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+
+  }
+
+  .teaser-section h1 {
+    text-align: center;
+    font-size:1.2em;
+
+  }
+
+  .teaser-section p {
+    font-family:sans-serif;
+    font-size:1.2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+  .teaser-buy-now  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .teaser-buy-now button {
+    border-radius: 0.4em;
+    margin-top:1.5em;
+    margin-bottom:0.7em;
+    font-size:1.3em;
+  }
+
+  .action-buttons-free{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:0.8em;
+    text-decoration: none;
+  }
+
+  .action-buttons-free .teaser-free button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2em;
+    font-size:1.3em;
+    text-decoration: none;
+  }
+  
+
+  .explore-card-area .card-deck .card-img-top {
+    min-width: 100%;
+  }
+
+  @media screen and (min-width: 575px) {
+    
+  .blog-heading {
+      padding-right: 0em;
+      padding-top: 0.5em;
+      padding-left: 0em;
+      padding-bottom:3em;
+      
+  }
+  .blog-card .card-img, .card-feature-img-top {
+      border-radius: 10%;
+      margin-bottom: 2em;
+      margin-top:2em;
+      min-width: 90%;
+  }
+
+  .blog-card-deck .card-deck .card .card2-img-top {
+    border-radius: 2.1em;
+  }
+
+  .blog-card-deck .card-deck .card h8 {
+    font-size:1.2em;
+
+  }
+
+  .blog-card-deck .card-deck .card p {
+    font-size:0.8em;
+  }
+
+
+  
+
+@media screen and (min-width: 767px) {
+  .blog-heading h1 {
+    font-size: 2em;
+    margin-top:2em;
+  }
+
+  .blog-card .card-img, .card-feature-img-top  {
+    border-radius: 10%;
+    margin-bottom: 2em;
+    margin-top:2em;
+    min-width: 50%;
+  }
+  .blog-heading {
+    padding-right: 0em;
+    padding-top: 0.5em;
+    padding-left: 0em;
+    padding-bottom:3em;
+
+  }
+  .blog-card-deck .card-deck .card .card2-img-top {
+    border-radius: 3.1em;
+
+  }
+
+  .blog-card-deck .card-deck .card h8 {
+    font-size:1.0em;
+  }
+
+  .blog-featured {
+    padding-right:2em;
+    padding-left: 2em;
+  }
+
+
+@media screen and (min-width: 991px) {
+  .blog-heading h1 {
+    font-size: 2.5em;
+  }
+
+  .blog-heading {
+    padding-right: 0em;
+    padding-top: 2em;
+    padding-left: 0em;
+    padding-bottom:3em;
+  }
+
+  .blog-featured {
+    padding-right:5em;
+    padding-left: 5em;
+  }
+
+
+
+@media screen and (min-width: 1199px) {
+  .blog-heading h1 {
+    font-size: 3em;
+  }
+
+  .blog-heading {
+    padding-right: 0em;
+    padding-top: 2em;
+    padding-left: 0em;
+    padding-bottom:3em;
+  }
+
+  .blog-featured-caption h5 {
+    font-size:3em;
+
+  }
+
+  .blog-featured-caption p {
+    font-size:1.2em;
+
+  }
+
+
+  @media screen and (min-width: 1299px) {
+    .blog-heading h1 {
+      font-size: 3em;
+    }
+  
+    .blog-heading {
+      padding-right: 0em;
+      padding-top: 2em;
+      padding-left: 0em;
+      padding-bottom:3em;
+    }
+
+    .blog-featured-caption h1 {
+      font-size:1.5em;
+
+    }
+  
+    .blog-featured-caption h5 {
+      font-size:3.5em;
+  
+    }
+  
+    .blog-featured-caption p {
+      font-size:1.5em;
+  
+    }
+
+    .blog-featured-caption .card-text-more {
+      font-size:1.7em;
+    }
+
+    .blog-card-deck .card-deck .card p {
+      font-size:1.1em;
+    }
+
+    .blog-card-deck .card-deck .card h8 {
+      font-size:1.7em;
+
+    }
+
+    .teaser-section p {
+      font-size:1.8em;
+    }
+
+    .teaser-section h1 {
+      font-size: 1.8em;
+    }
+
+    .teaser-buy-now button{
+      font-size:2.1em;
+      border-radius: 4em;
+    }
+
+    

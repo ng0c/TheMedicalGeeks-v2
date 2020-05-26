@@ -1,0 +1,226 @@
+.blog-heading{
+    background-color: rgb(31, 118, 192);
+    position: relative;
+
+ }
+ 
+.blog-heading h1 {
+    letter-spacing: 0em;
+    text-align:center;
+    color: white;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.blog-featured {
+    background-color: rgb(31, 118, 192);
+    text-decoration: none;
+    padding-bottom:3em;
+}
+
+.blog-featured-caption {
+    background-color:rgb(240, 240, 240);
+    padding-bottom:3em;
+    text-decoration: none !important;
+
+}
+
+.blog-featured-caption h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.blog-featured .card-deck {
+    margin-left: 0em;
+    margin-right:0em;
+}
+
+.blog-featured .card-feature-img-top{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    background-size:cover;
+
+}
+    
+.blog-featured .card2-img-top{
+    max-width: 100%;
+    max-height:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-featured img:hover{
+    box-shadow: 3px 3px 3px #ccc;
+    -webkit-box-shadow: 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px #ccc;
+    
+}
+
+
+.blog-featured-caption h5 {
+    color:rgb(31, 118, 192);   
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none !important;
+
+}
+
+.blog-featured-caption p {
+    color:rgb(56, 56, 56)
+}
+
+.blog-card-deck .card-deck .card {
+    position: relative;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #f0f0f0;
+    background-clip: border-box;
+    border-style: none;
+    outline: none;
+
+}
+
+.blog-card-deck .card-deck .card-footer {
+    background-color: #f0f0f0;
+    outline: none;
+    border: none;
+
+
+}
+
+.blog-card-deck h1{
+    font-family:sans-serif;
+    font-weight: bold;
+
+}
+
+
+
+
+.teaser-section {
+    background-color: white;
+    padding-top: 5em;
+    padding-bottom:5em;
+
+}
+
+.teaser-section-container {
+    margin: auto;
+}
+
+.teaser-section h1 {
+    font-family: sans-serif;
+    color:rgb(31, 118, 192);  
+}
+
+.teaser-section p {
+    font-family:sans-serif;
+    font-weight: bold;
+}
+
+.teaser-section p4 {
+    font-family:sans-serif;
+    font-size:1.2em;
+    text-align: right;
+    font-weight: bold;
+}
+
+.teaser-buy-now button {
+    background-color: rgb(15, 162, 247); /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+
+.teaser-free button {
+    background-color: rgb(255, 255, 255); 
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+
+
+
+.teaser-section button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-timing-function: ease-out;
+}
+
+.teaser-section-container p5{
+    font-style: italic;
+    padding-left:7em;
+    font-size:1em;
+    padding-right:1em;
+    margin-left: 2em;
+    margin-top:1em;
+    padding-right:1.5em;
+
+}
+}
+
+
+
+
+
+
+
+
+.categories h1 {
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #0e0e0e
+
+}
+
+.explore-card-area {
+    position: relative;
+    margin-bottom:5em;
+
+}
+.explore-card-area .card-deck {
+    margin-left: 0em;
+    margin-right:0em;
+}
+
+.explore-card-area .card-deck .card {
+    border:none;
+}
+
+.explore-card-area .card-deck .card {
+    text-align:center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+
+}
+
+.explore-card-area .card-deck .card-img-top {
+    max-width: 85%;
+    max-height:85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
