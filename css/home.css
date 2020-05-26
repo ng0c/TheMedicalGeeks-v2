@@ -16,7 +16,6 @@ html {
   position: relative;
   overflow: hidden;
   width: 100%;
-  min-height: 900px;
   background-color: #5985BA;
 }
 
@@ -62,7 +61,7 @@ html {
 .service-area .service-area-inner .overlay {
   background: url(../img/background/container-2.png) no-repeat center left;
   position: absolute;
-  left: 80px;
+  left: 80px;  /* THIS NEEDS CHANGING */ 
   right: 0;
   top: 0;
   bottom: 0;

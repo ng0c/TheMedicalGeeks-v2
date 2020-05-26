@@ -1,3 +1,25 @@
+@media (min-width: 300px) {
+  .home_banner_area .banner_inner{
+    min-height: 700px;  
+  }
+
+@media (min-width: 1023px) {
+  .home_banner_area .banner_inner{
+    min-height: 900px;
+}
+
+  .home_banner_area .banner_inner .overlay {
+    background: url(../img/background/front-landing-page_.png) no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+}
+
 @media (max-width: 991px) {
   .navbar .container {
     padding-left: 15px;
@@ -313,7 +335,7 @@
   .area-heading {
     margin-bottom: 50px;
   }
-
+/*
   .home_banner_area .banner_inner .overlay {
     background-image: none !important;
   }
@@ -350,6 +372,7 @@
     background-image: none !important;
   }
 }
+
 
 /* THIS IS AN EXCEPTION FOR IPHONE 5E PHONES AND THE WAY IT RESPONDS TO CERTAIN TEXT SIZE FORMATS */
 @media screen and (device-aspect-ratio: 40/71) {
@@ -871,7 +894,7 @@
     }
 
     .blog-featured-caption .card-text-more {
-      font-size:1.7em;
+      font-size:1.3em;
     }
 
     .blog-card-deck .card-deck .card p {
