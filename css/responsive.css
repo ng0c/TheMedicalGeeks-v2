@@ -49,6 +49,15 @@
 }
 }
 
+@media screen and (min-width:992px) and (max-width:1300px) {
+  .mmi-service-area .mmi-area-inner .overlay {
+    opacity: 15%;
+  }
+
+}
+
+
+
 @media (min-width: 1023px) {
   .home_banner_area .banner_inner{
     min-height: 900px;
@@ -136,7 +145,12 @@
     right:300px !important;
 
 }
+}
 
+@media (min-width:1800px) {
+  .interview-hero-banner {
+    min-height: 800px !important;
+  }
 }
 
 
@@ -162,6 +176,10 @@
   
   }
 
+  .mmi-service-area .mmi-area-inner .overlay {
+    margin-right:200px;
+  }
+
 }
 
 @media (min-width:2400px) {
@@ -181,8 +199,11 @@
   }
 
 }
-
-
+@media (min-width:2600px) {
+  .interview-hero-banner {
+    min-height: 1000px !important;
+  }
+}
 
 @media (max-width: 991px) {
   .navbar .container {
