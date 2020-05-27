@@ -2,7 +2,7 @@
   .home_banner_area .banner_inner{
     min-height: 700px;  
   }
-
+}
 
 @media (min-width:300px) and (max-width:575px) {
   .service-area .service-area-inner .service_content h2 {
