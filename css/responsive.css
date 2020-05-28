@@ -153,6 +153,12 @@
   }
 }
 
+@media (min-width:1900px) {
+  .bmat-hero-banner {
+    min-height:800px !important;
+  }
+}
+
 
 @media (min-width:2000px) {
   .home_banner_area .banner_inner .overlay {
@@ -199,6 +205,15 @@
   }
 
 }
+
+@media (min-width:2540px) {
+  .bmat-hero-banner {
+    min-height:1000px !important;
+  }
+}
+
+
+
 @media (min-width:2600px) {
   .interview-hero-banner {
     min-height: 1000px !important;
@@ -1104,4 +1119,7 @@
       border-radius: 4em;
     }
 
-    
+  }
+
+
+
