@@ -1,13 +1,29 @@
 @media (min-width: 300px) {
   .home_banner_area .banner_inner{
-    min-height: 700px;  
+    min-height: 600px;  
   }
 }
 
 @media (min-width:300px) and (max-width:575px) {
   .service-area .service-area-inner .service_content h2 {
     margin-top:100px !important; 
+  }
+}
 
+@media (min-width:374px) and (max-width:424px) {
+  .home_banner_area .banner_inner{
+    min-height: 500px; 
+}
+}
+
+@media (min-width:510px) {
+  .ps-hero-banner {
+    background: url(../img/background/container-1-ps-original.png)no-repeat scroll center center !important;
+    background-size: cover !important;
+    position: relative !important;
+    padding: 70px 0 !important;
+    min-height: 600px !important;
+    background-color: #f1ac51 !important;
   }
 }
 
@@ -184,6 +200,10 @@
 
   .mmi-service-area .mmi-area-inner .overlay {
     margin-right:200px;
+  }
+
+  .freebies-hero-banner {
+    min-height:800px !important;
   }
 
 }
@@ -986,8 +1006,17 @@
   .blog-card-deck .card-deck .card p {
     font-size:0.8em;
   }
+  }
+
+@media screen and (min-width:575px) and (max-width:982px) {
+  .products-section .products-available-inner .card {
+    background: url(../img/pricing/IPAD-50.png) !important;
+    background-size: cover !important;
+  }
 
 
+
+}
   
 
 @media screen and (min-width: 767px) {
