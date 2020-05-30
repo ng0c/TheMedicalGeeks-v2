@@ -191,6 +191,12 @@ html {
   margin-right: auto
 }
 
+.our-team .card p2 {
+  font-size: 0.8em;
+  font-weight:bold;
+}
+]
+
 /* OUR AIM SECTION */
 .our-aim-area {
   min-height: 650px;

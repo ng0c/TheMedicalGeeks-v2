@@ -1014,11 +1014,13 @@
     background-size: cover !important;
   }
 
-
-
+  .interview-products-available .products-available-inner .card {
+    background: url(../img/pricing/IPAD-50.png) !important;
+    background-size: cover !important;
+  
+  }
 }
   
-
 @media screen and (min-width: 767px) {
   .blog-heading h1 {
     font-size: 2em;
