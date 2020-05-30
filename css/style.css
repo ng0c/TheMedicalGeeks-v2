@@ -175,3 +175,10 @@ opacity: 0.8;
   margin-right:30%;
   color:white;
 }
+
+/* FOR REVIEW SYSTEM */
+
+.checked {
+  color: orange;
+  text-align: center;
+}
