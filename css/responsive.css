@@ -555,42 +555,6 @@
   .area-heading {
     margin-bottom: 50px;
   }
-/*
-  .home_banner_area .banner_inner .overlay {
-    background-image: none !important;
-  }
-
-  .service-area .service-area-inner .overlay {
-    background-image: none !important;
-  }
-
-  .service-area-subcontent .service-subcontent-inner .overlay {
-    background-image: none !important;
-  }
-
-  .mmi-service-area .mmi-area-inner .overlay {
-    background-image: none !important;
-  }
-
-  .ucat-service-area .overlay {
-    background-image: none !important;
-  }
-
-  .ucat-service-area-subcontent .ucat-service-subcontent-inner .overlay {
-    background-image: none !important;
-  }
-
-  .bmat-service-area .overlay {
-    background-image: none !important;
-  }
-
-  .bmat-service-area-subcontent .bmat-service-subcontent-inner .overlay {
-    background-image: none !important;
-  }
-
-  .ps-service-area .ps-area-inner .overlay {
-    background-image: none !important;
-  }
 }
 
 
@@ -608,6 +572,9 @@
     background-image: none !important;
   }
 }
+
+
+
 
 
 /* BLOG PAGES */
@@ -734,6 +701,19 @@
     min-width: 100%;
   }
 
+  /* FOR THE INDIVIDUAL BLOG PAGES */
+  .blog-banner{
+    min-height: 400px;
+  }
+
+  .main-blog-area .container-section-blog .main-body-text .individual-headings h1 {
+    font-size:1.5em;
+  }
+  
+  .blog-home-heading h1 {
+    padding-top:3em;
+  }
+
 
 @media screen and (min-width: 425px) {
   .blog-heading h1{
@@ -853,6 +833,11 @@
 
   .explore-card-area .card-deck .card-img-top {
     min-width: 100%;
+  }
+
+  /*FOR INDIVIDUAL BLOG PAGES */ 
+  .blog-home-heading h1 {
+    padding-top:3em;
   }
 
 
@@ -977,6 +962,7 @@
   .explore-card-area .card-deck .card-img-top {
     min-width: 100%;
   }
+}
 
   @media screen and (min-width: 575px) {
     
@@ -1007,6 +993,11 @@
     font-size:0.8em;
   }
   }
+  /* FOR THE INDIVIDUAL BLOG PAGES */
+  .blog-banner{
+    min-height: 500px;
+  }
+
 
 @media screen and (min-width:575px) and (max-width:982px) {
   .products-section .products-available-inner .card {
@@ -1054,6 +1045,12 @@
     padding-left: 2em;
   }
 
+  /*FOR INDIVIDUAL BLOG PAGES */ 
+  .blog-home-heading h1 {
+    padding-top:4em;
+  }
+}
+
 
 @media screen and (min-width: 991px) {
   .blog-heading h1 {
@@ -1071,8 +1068,21 @@
     padding-right:5em;
     padding-left: 5em;
   }
+  /* FOR THE INDIVIDUAL BLOG PAGES */
+  .blog-banner{
+    min-height: 700px;
+  }
+
+  .main-blog-area .main-blog-heading h1 {
+    font-size:3.3em;
+  }
+
+  .main-blog-area .container-section-blog .sub-text p {
+    font-size:1.4em;
+  }
 
 
+}
 
 @media screen and (min-width: 1199px) {
   .blog-heading h1 {
@@ -1095,6 +1105,7 @@
     font-size:1.2em;
 
   }
+}
 
 
   @media screen and (min-width: 1299px) {
@@ -1150,7 +1161,16 @@
       border-radius: 4em;
     }
 
+    /* FOR THE INDIVIDUAL BLOG PAGES */
+  .blog-banner{
+    min-height: 600px;
   }
+
+
+  }
+}
+
+
 
 
 

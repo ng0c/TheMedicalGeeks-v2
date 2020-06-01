@@ -1,3 +1,5 @@
+/* BLOG FRONT PAGE */
+
 .blog-heading{
     background-color: rgb(31, 118, 192);
     position: relative;
@@ -92,8 +94,6 @@
     font-weight: bold;
 
 }
-
-
 
 
 .teaser-section {
@@ -199,6 +199,88 @@
     margin-left: auto;
     margin-right: auto;
 
+}
+
+
+/* INDIVIDUAL BLOG PAGES */ 
+
+.blog-banner {
+    background: url(../img/background/ucat-container-1.png) no-repeat scroll center center;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+      }
+
+.main-blog-area .main-blog-heading h1 {
+    font-family:"Open Sans", sans-serif;
+    text-align: center;
+}
+
+.main-blog-area .main-blog-heading p {
+    font-family: sans-serif;
+    color:grey;
+    text-align: center;
+    margin-bottom:3em;
+}
+
+.main-blog-area .container-section-blog .sub-text p {
+    font-family:sans-serif;
+    color: rgb(161, 161, 161);
+    font-style: italic;
+    margin-bottom:4em;
+}
+
+.main-blog-area .container-section-blog .main-body-text .individual-headings{
+    border-bottom: 1.3px solid rgb(165, 165, 165);
+    margin-bottom: 30px;
+}
+.main-blog-area .container-section-blog .main-body-text .individual-headings h1 {
+    font-style:italic;   
+}
+
+.main-blog-area .container-section-blog .main-body-text .text p {
+    margin-bottom:5em;
+}
+
+.main-blog-area .container-section-blog .main-body-text .text-details p{
+    margin-bottom:1.5em;
+}
+.breaker {
+    background-color: white;
+    margin-top: 5em;
+}
+
+
+/*HM PAGES FOR ALL CATEGORIES */ 
+
+.blog-home-heading {
+    font-size:4em;
+    position: relative;
+    background-color: white;
+}
+ 
+.blog-home-heading h1 {
+    letter-spacing: 0em;
+    text-align:center;
+    color: rgb(73, 73, 73);
+    font-weight:bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+.blog-home-subheading {
+    text-align: center;
+    margin-bottom:2.5em;
+}
+
+.blog-home-subheading p1 {
+    font-size:1.5em;
+    font-family: "Open Sans", sans-serif;
+}
+
+.blog-home-card-decks {
+    padding-right:30px;
+    padding-left:30px;
+    margin-bottom:5em;
 }
 
 
