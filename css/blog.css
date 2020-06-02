@@ -205,12 +205,17 @@
 /* INDIVIDUAL BLOG PAGES */ 
 
 .blog-banner {
-    background: url(../img/blog/what-ucat.png) no-repeat scroll center center;
     background-attachment: fixed;
     position: relative;
-    
-    background-color: #83cde5;
       }
+
+.ucat-banner-what {
+    background: url(../img/blog/what-ucat.png) no-repeat scroll center center;
+    background-color: #83cde5;
+    background-attachment: fixed;
+    position: relative;
+    background-size:80%;
+}
 
 .main-blog-area .main-blog-heading h1 {
     font-family:"Open Sans", sans-serif;

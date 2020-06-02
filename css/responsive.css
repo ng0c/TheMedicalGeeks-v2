@@ -705,6 +705,9 @@
   .blog-banner{
     min-height: 400px;
   }
+  .ucat-banner-what {
+    min-height:400px;
+  }
 
   .main-blog-area .container-section-blog .main-body-text .individual-headings h1 {
     font-size:1.5em;
@@ -997,6 +1000,9 @@
   .blog-banner{
     min-height: 500px;
   }
+  .ucat-banner-what {
+    min-height:500px;
+  }
 
 
 @media screen and (min-width:575px) and (max-width:982px) {
@@ -1070,8 +1076,13 @@
   }
   /* FOR THE INDIVIDUAL BLOG PAGES */
   .blog-banner{
-    min-height: 700px;
+    min-height: 500px;
   }
+  .ucat-banner-what {
+    min-height: 600px;
+    background-size:70% !important;
+  }
+  
 
   .main-blog-area .main-blog-heading h1 {
     font-size:3.3em;
@@ -1080,6 +1091,7 @@
   .main-blog-area .container-section-blog .sub-text p {
     font-size:1.4em;
   }
+  
 
 
 }
@@ -1165,10 +1177,22 @@
   .blog-banner{
     min-height: 600px;
   }
-
-
+  .ucat-banner-what {
+    min-height: 700px;
+    background-size:60% !important;
   }
 }
+
+@media screen and (min-width:1999px) and (max-width:2000px) {
+  .ucat-banner-what {
+    min-height: 1000px;
+  }
+}
+
+@media screen and (min-width:2001px){
+  .ucat-banner-what {
+    min-height:1600px;
+  }
 
 
 
