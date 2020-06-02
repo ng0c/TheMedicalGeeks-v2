@@ -209,6 +209,13 @@
     background: url(../img/blog/what-ucat.png) no-repeat scroll center center;
     position: relative;
     padding: 100px 0;
+    background-size: cover;s
+    min-height: 600px;
+  }
+  .bmat_what-hero-banner {
+    background: url(../img/background/bmat-container-1.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
     background-size: cover;
     min-height: 600px;
   }
