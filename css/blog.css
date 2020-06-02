@@ -205,10 +205,11 @@
 /* INDIVIDUAL BLOG PAGES */ 
 
 .blog-banner {
-    background: url(../img/background/ucat-container-1.png) no-repeat scroll center center;
+    background: url(../img/blog/what-ucat.png) no-repeat scroll center center;
     background-attachment: fixed;
     position: relative;
-    background-size: cover;
+    
+    background-color: #83cde5;
       }
 
 .main-blog-area .main-blog-heading h1 {
