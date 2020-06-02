@@ -204,18 +204,30 @@
 
 /* INDIVIDUAL BLOG PAGES */ 
 
-.blog-banner {
-    background-attachment: fixed;
-    position: relative;
-      }
 
-.ucat-banner-what {
+.ucat_what-hero-banner {
     background: url(../img/blog/what-ucat.png) no-repeat scroll center center;
-    background-color: #83cde5;
-    background-attachment: fixed;
     position: relative;
-    background-size:80%;
-}
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+  }
+
+  .ucat_tips-hero-banner {
+    background: url(../img/icons/improve-ucat-banner.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+  }
+  .ucat_how-hero-banner {
+    background: url(../img/icons/how-banner.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+  }
+
 
 .main-blog-area .main-blog-heading h1 {
     font-family:"Open Sans", sans-serif;
