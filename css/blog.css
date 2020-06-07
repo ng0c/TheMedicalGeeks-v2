@@ -209,11 +209,36 @@
     background: url(../img/blog/what-ucat.png) no-repeat scroll center center;
     position: relative;
     padding: 100px 0;
-    background-size: cover;s
+    background-size: cover;
     min-height: 600px;
   }
+
   .bmat_what-hero-banner {
     background: url(../img/background/bmat-container-1.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+  }
+
+  .ps_what-hero-banner {
+    background: url(../img/background/what-ps.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+  }
+  .int_what-hero-banner {
+    background: url(../img/background/intro-int-banner.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+
+  }
+
+  .bmat_tips-hero-banner {
+    background: url(../img/icons/BMAT-improve-banner.png) no-repeat scroll center center;
     position: relative;
     padding: 100px 0;
     background-size: cover;
@@ -227,12 +252,52 @@
     background-size: cover;
     min-height: 600px;
   }
+
+  .int_tips-hero-banner {
+    background: url(../img/background/tips-improve-banner.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+  }
+
+  .ps_tips-hero-banner {
+    background: url(../img/background/tips-ps-banner.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+  }
+  }
+
   .ucat_how-hero-banner {
     background: url(../img/icons/how-banner.png) no-repeat scroll center center;
     position: relative;
     padding: 100px 0;
     background-size: cover;
     min-height: 600px;
+  }
+  .bmat_how-hero-banner {
+      background: url(../img/icons/how-bmat-banner.png) no-repeat scroll center center;
+      position: relative;
+      padding: 100px 0;
+      background-size: cover;
+      min-height: 600px;
+  }
+  .ps_how-hero-banner {
+    background: url(../img/background/ps_how-banner.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+}
+.int_how-hero-banner {
+    background: url(../img/background/how-uni-int-banner.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+}
   }
 
 

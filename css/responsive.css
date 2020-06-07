@@ -607,7 +607,7 @@
     border-radius: 10%;
     margin-bottom: 2em;
     margin-top:2em;
-    min-width: 90%;
+    max-width: 90%;
   
   }
 
@@ -720,6 +720,11 @@
   .main-blog-area .container-section-blog .main-body-text .individual-headings img {
     width:30vw;
 }
+.main-blog-area .main-blog-heading h1 {
+  font-size:2.5em;
+  text-align: center;
+}
+
 
 
 
@@ -1096,6 +1101,7 @@
 
   .main-blog-area .main-blog-heading h1 {
     font-size:3.3em;
+    text-align: center;
   }
 
   .main-blog-area .container-section-blog .sub-text p {

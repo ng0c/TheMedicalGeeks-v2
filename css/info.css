@@ -52,6 +52,11 @@ html {
   color: #5985BA;
 }
 
+.dropdown-menu-show {
+  background-color: #5985BA !important;
+
+}
+
 /* MEET THE TEAM CARDS */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
