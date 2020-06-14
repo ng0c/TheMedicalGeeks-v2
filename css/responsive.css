@@ -361,9 +361,6 @@
 }
 
 @media (max-width: 480px) {
-  .header_area .navbar-collapse {
-    max-height: 280px;
-  }
 
   .home_banner_area {
     min-height: 400px;
