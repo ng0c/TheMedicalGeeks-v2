@@ -252,6 +252,7 @@ html {
 .contact-area {
   min-height: 650px;
   justify-content: center;
+  background-color:white;
 }
 
 .contact-area .contact-area-title h2 {

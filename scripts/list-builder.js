@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     var delay = 300; // milliseconds
-    var cookie_expire = 0; // days
+    var cookie_expire = 1; // days
 
     var cookie = localStorage.getItem("list-builder");
     if (cookie == undefined || cookie == null) {

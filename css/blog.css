@@ -172,7 +172,8 @@
 
 .explore-card-area {
     position: relative;
-    margin-bottom:5em;
+    padding-bottom:5em;
+    background-color: white;
 
 }
 .explore-card-area .card-deck {
@@ -268,7 +269,6 @@
     background-size: cover;
     min-height: 600px;
   }
-  }
 
   .ucat_how-hero-banner {
     background: url(../img/icons/how-banner.png) no-repeat scroll center center;
@@ -298,7 +298,18 @@
     background-size: cover;
     min-height: 600px;
 }
-  }
+
+.covid_ucat-hero-banner{
+    background: url(../img/background/ucat-covid-banner.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.main-blog-area {
+    background-color: white;
+}
 
 
 .main-blog-area .main-blog-heading h1 {
@@ -329,15 +340,16 @@
 }
 
 .main-blog-area .container-section-blog .main-body-text .text p {
-    margin-bottom:5em;
+    padding-bottom:5em;
+    
 }
 
 .main-blog-area .container-section-blog .main-body-text .text-details p{
-    margin-bottom:1.5em;
+    padding-bottom:1.5em;
 }
 .breaker {
     background-color: white;
-    margin-top: 5em;
+    padding-top: 5em;
 }
 
 
@@ -347,6 +359,10 @@
     font-size:4em;
     position: relative;
     background-color: white;
+}
+
+.categories-header {
+    background: white;
 }
  
 .blog-home-heading h1 {
@@ -359,7 +375,8 @@
 
 .blog-home-subheading {
     text-align: center;
-    margin-bottom:2.5em;
+    padding-bottom:2.5em;
+    background: white;
 }
 
 .blog-home-subheading p1 {
@@ -370,7 +387,8 @@
 .blog-home-card-decks {
     padding-right:30px;
     padding-left:30px;
-    margin-bottom:5em;
+    padding-bottom:5em;
+    background:white;
 }
 
 

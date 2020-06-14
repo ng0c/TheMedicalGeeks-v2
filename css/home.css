@@ -217,11 +217,13 @@ html {
 
 .service-card-area {
   position: relative;
+  background:transparent;
 }
 
 .service-card-area .card-deck .card {
   color: white;
   border: none;
+  background: transparent;
 }
 
 .service-card-area .card-deck .card .card-body {
@@ -247,6 +249,7 @@ html {
 .service-card-area-2 {
   position: relative;
   padding-bottom: 130px;
+  background:white;
 }
 
 .service-card-area-2 .card-deck .card {
@@ -272,4 +275,9 @@ html {
 
 .service-card-area-2 .card-deck .card .card-body .btn {
   font-family: "Open Sans", sans-serif;
+}
+
+#popup-box #popup-box-content a{
+  color:blue;
+
 }

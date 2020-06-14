@@ -16,8 +16,15 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
 
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- FOR 5 STAR REVIEW -->
+
+  <!-- THIS IS NEEDED FOR NAV BAR + NOTIFICATION BELL -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166932878-1"></script>
@@ -56,15 +63,48 @@
             <li class="nav-item">
               <a class="nav-link" href="./personal-statement.html">Personal Statement</a>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Blog
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="blog.html">
+                  <img src="img/icons/dropdown-home.png" width="30" height="30" style="margin:0 1em 0 0 "
+                    alt="">Home</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="blog-individuals/UCAT/ucat-hm-blog.html">
+                  <img src="img/icons/dropdown-ucat.png" width="30" height="30" style="margin:0 1em 0 0 "
+                    alt="">UCAT</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="blog-individuals/PS/ps-hm-blog.html"><img
+                    src="img/icons/dropdown-ps .png" width="30" height="30" style="margin:0 1em 0 0 " alt="">Personal
+                  Statement</a></a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="blog-individuals/BMAT/bmat-hm-blog.html"><img
+                    src="img/icons/dropdown-bmat.png" width="30" height="30" style="margin:0 1em 0 0 "
+                    alt="">BMAT</a></a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="blog-individuals/Interview/interviewe-hm-blog.html"><img
+                    src="img/icons/dropdown-int.png" width="30" height="30" style="margin:0 1em 0 0 "
+                    alt="">Interview</a></a>
+              </div>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="./freebies.html">Free Resources</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="./about.html">About Us</a>
             </li>
+            <div class="wrapper" onclick="clickCounter(); openNav();">
+              <div class="notification" onclick="openNav(); clickCounter();">
+                <i class="fa fa-bell-o"></i>
+                <div class="text" onclick="closeBar();">Notifications</div>
+                <div class="notify-count count1 common-count" id="common-count" count="0">
+                  <div class="value" id="value">0</div>
+                </div>
+              </div>
+            </div>
           </ul>
         </div>
       </nav>
@@ -120,7 +160,7 @@
     </div>
   </section>
 
-  <section class="ucat-preview area-padding">
+  <section class="ucat-preview area-padding" style="background: white;">
     <div class="ucat-preview-inner d-flex align-items-center">
       <div class="container">
         <div class="area-heading">
@@ -285,19 +325,220 @@
     </div>
   </footer>
 
+  <a id="extra-container-fluid" class="background-close" href="javascript:void(0)" onclick="closeNav()"></a>
+  </div>
+  <div id="mySidenav" class="sidenav">
+    <div class="side-navbar-header">
+      <div class="container-fluid">
+        <h1><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          TheMedicalGeeks Info Centre</h1>
+      </div>
+    </div>
+    <div class="sidebar-card-container">
+      <div class="card">
+        <div class="card-side">
+          <div class="newdate">
+            <p1>5th June 2020</p1>
+          </div>
+          <a href="covid+ucat.html">
+            <h3>Latest Update On UCAT UK And Covid-19</h3>
+          </a>
+          <a href="covid+ucat.html">
+            <img class="side-img" src="img/background/ucat-covid-banner.png">
+          </a>
+
+          <h8><strong>Important Information Update</strong></h8>
+          <br>
+          <p9>The UCAT has announced on 1st June 2020 that:</p9>
+          <br>
+          <br>
+          <ul>✅ You can sign up for UCAT from <strong>1st July 2020</strong></ul>
+
+          <ul>
+            ✅ Exam can be taken from <strong> 3rd Aug to 1st Oct</strong>
+          </ul>
+
+          <ul>
+            ✅ UCAT can be <strong>sat online</strong>
+          </ul>
+
+          <ul>
+            ✅ UCAT can be done at <strong>Pearson Vue's centres</strong>
+          </ul>
+
+          <br>
+          <p9>You can find out <strong><a href="https://www.ucat.ac.uk/ucat/ucat-2020-update/" target="_blank">
+                more information here...</a></strong></p9>
+          <br>
+          <br>
+          <p9>📅 To keep up to date with the latest information regarding Covid-19 and the UCAT exam,
+            make
+            sure to follow us on <strong><a href="https://www.instagram.com/themedicalgeeks/" target="_blank">Instagram
+                for
+                the latest news!</a></strong></p9>
+          <br>
+          <br>
+          <p5>🚀 To improve your UCAT score, read our <strong><a href="blog.html">blogs
+                here</a></strong>
+            or
+            check
+            out our <a href="ucat.html"><strong>UCAT guide here.</strong></a></p5>
+        </div>
+
+
+        <div class="card-side">
+          <div class="newdate">
+            <p1>1st June 2020</p1>
+          </div>
+          <a href="blog-individuals/UCAT/tips-UCAT.html">
+            <h3>How To Improve Your UCAT Score Blog!</h3>
+          </a>
+          <a href="blog-individuals/UCAT/tips-UCAT.html">
+            <img class="side-img" src="img/background/UCAT-banner-side.png">
+          </a>
+
+          <h8><strong>What's In The Blog?</strong></h8>
+          <br>
+          With UCAT Tests around the corner, its time to read tips on how to improve your score! We look
+          at:
+          <br>
+          <br>
+          <strong>
+            <ul>✅ Time Management</ul>
+          </strong>
+
+          <ul>
+            <strong>✅ How To Guess</strong>
+          </ul>
+
+          <ul>
+            <strong>✅ How To Practice</strong>
+          </ul>
+
+          <ul>
+            <strong>✅ How To Improve Marginal Gains </strong>
+          </ul>
+
+          <br>
+          <p3>📅 To keep up to date with the latest information regarding Covid-19 and the UCAT exam, make
+            sure to follow us on <strong> <a href="https://www.instagram.com/themedicalgeeks/" target="_blank">Instagram
+                for
+                the latest news!</a></strong></p3>
+          <br>
+          <br>
+          <p5>🚀 To improve your UCAT score, read our <strong><a href="blog.html">blogs
+                here</a></strong>
+            or check
+            out our <strong><a href="ucat.html">UCAT guide here.</a></strong></p5>
+        </div>
+
+        <div class="card-side">
+          <div class="newdate">
+            <p1>1st June 2020</p1>
+          </div>
+          <a href="blog-individuals/PS/tips-ps.html">
+            <h3>How To Improve Your Personal Statement Blog!</h3>
+          </a>
+          <a href="blog-individuals/PS/tips-ps.html">
+            <img class="side-img" src="img/background/ps-sidebar.png">
+          </a>
+
+          <h8><strong>What's In The Blog?</strong></h8>
+          <br>
+          Not sure where to start with your personal statement? In this blog, we cover:
+          <br>
+          <br>
+          <strong>
+            <ul>✅ How To Make It Interesting</ul>
+          </strong>
+
+          <ul>
+            <strong>✅ Making Sure You Don't Forget The Important Information</strong>
+          </ul>
+
+          <ul>
+            <strong>✅ How To Make It Personal!</strong>
+          </ul>
+
+          <br>
+          <p3>📅 To keep up to date with the latest information regarding Covid-19 and the UCAT exam, make
+            sure to follow us on <strong> <a href="https://www.instagram.com/themedicalgeeks/" target="_blank">Instagram
+                for
+                the latest news!</a></strong></p3>
+          <br>
+          <br>
+          <p5>🚀 To improve your Personal Statement, read our <strong><a href="blog.html">blogs
+                here</a></strong>
+            or check
+            out our <strong><a href="personal-statement.html">Personal Statement guide
+                here.</a></strong></p5>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Opens up side nav upon clicking on bell // also contains clicking on side to close sidenav bar-->
+
+    <script>
+      function openNav() {
+        var x = document.getElementById("mySidenav");
+        if (window.matchMedia("(max-width:768px)").matches) {
+          document.getElementById("mySidenav").style.width = "100vw";
+          document.body.style.backgroundColor = "rgba(1,1,1,1)";
+          document.getElementById("extra-container-fluid").style.width = "100vw";
+        }
+        else {
+          document.getElementById("mySidenav").style.width = "45vw";
+          document.body.style.backgroundColor = "rgba(1,1,1,1)";
+          document.getElementById("extra-container-fluid").style.width = "100vw";
+
+        }
+      }
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.body.style.backgroundColor = "white";
+        document.getElementById("extra-container-fluid").style.width = "0";
+      }
+
+      function closeBar() {
+        document.getElementById("navbarTogglerDemo02").style.height = "0";
+        document.getElementById("navbarTogglerDemo02").style.width = "0";
+      }
+    </script>
+
+
+    <!--Setting local storage to clear the notification symbol if user closes browser or reopens tab-->
+
+    <script type="text/javascript">
+      function clickCounter() {
+        if (typeof (Storage) !== "undefined") {
+          if (sessionStorage.clickcount) {
+            sessionStorage.clickcount += 1;
+            document.getElementById('common-count').style.display = "none";
+          } else {
+            sessionStorage.clickcount = 1;
+            document.getElementById('common-count').style.display = "block";
+          }
+        }
+      }
+      if (sessionStorage.clickcount) {
+        document.getElementById('common-count').style.display = "none";
+      }
+    </script>
 
 
 
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>

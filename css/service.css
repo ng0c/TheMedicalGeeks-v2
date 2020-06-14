@@ -94,8 +94,9 @@
 
 .interview-products-available {
   background-color: white;
-  margin-bottom: 80px;
-  margin-top: 10px;
+  padding-bottom: 80px;
+  padding-top: 10px;
+
 }
 
 .interview-products-available .products-available-inner {
@@ -119,6 +120,9 @@
   font-family: "Open Sans", sans-serif;
   background:url(..//img/pricing/50%reduction.png);
   background-size: cover;
+}
+.interview-products-available .products-available-inner .card:hover{
+  box-shadow: 5px 10px 8px 5px #888888;
 }
 
 .interview-products-available .products-available-inner .card .card-title {
@@ -328,8 +332,8 @@
 /* PRODUCTS AVAIABLE CONTAINER */
 .products-section {
   background-color: white;
-  margin-bottom: 80px;
-  margin-top: 10px;
+  padding-bottom: 80px;
+  padding-top: 10px;
 }
 
 .products-section .products-available-inner {
@@ -707,11 +711,12 @@
   top: 0;
   bottom: 0;
   height: 100%;
+  padding-left: 70em;
 }
 
 .ps-service-area .ps-area-inner .card {
   border: none;
-  background-color: rgb(255, 99, 99);
+  background-color: transparent;
   padding-top: 40px;
   padding-right: 30px;
   font-family: "Open Sans", sans-serif;
@@ -772,8 +777,8 @@
 }
 
 .freebies-area-heading h1 {
-  margin-top: 50px;
-  margin-bottom: 120px;
+  padding-top: 50px;
+  padding-bottom: 120px;
   position: relative;
   text-align: center;
   font-size: 50px;
@@ -784,7 +789,7 @@
 
 .freebies-card-area {
   position: relative;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .freebies-card-area .card-deck .card {
