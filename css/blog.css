@@ -43,8 +43,13 @@
     margin-right: auto;
     margin-bottom: 3em;
     background-size:cover;
+    transition-delay: 0.8ms;
 
 }
+.blog-featured .card-feature-img-top:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
     
 .blog-featured .card2-img-top{
     max-width: 100%;
@@ -52,6 +57,10 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.blog-featured .card2-img-top:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -78,15 +87,35 @@
     background-clip: border-box;
     border-style: none;
     outline: none;
+}
 
+.individual-card-blog .card {
+    position: relative;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #f0f0f0;
+    background-clip: border-box;
+    border-style: none;
+    outline: none;
+}
+
+.main-blog-area .blog-card-deck .card-deck .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .blog-card-deck .card-deck .card-footer {
     background-color: #f0f0f0;
     outline: none;
     border: none;
+}
 
-
+.individual-card-blog .card-footer {
+    background-color: #f0f0f0;
+    outline: none;
+    border: none;
 }
 
 .blog-card-deck h1{
@@ -134,7 +163,10 @@
     font-weight: bold;
     padding-left: 2em;
     padding-right: 2em;
+}
 
+.teaser-buy-now button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -146,9 +178,14 @@
     text-align: center;
     text-decoration: none;
     font-family: sans-serif;
-
-
 }
+
+.teaser-free button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
 
 .teaser-section-container p5{
     font-style: italic;
@@ -307,6 +344,37 @@
     min-height: 600px;
 }
 
+.ucat_low_score-hero-banner {
+    background: url(../img/blog/low-score.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.ucat_average_score-hero-banner {
+    background: url(../img/blog/average_score.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+}
+.ucat_good_score-hero-banner {
+    background: url(../img/blog/good_score.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+}
+.ucat_high_score-hero-banner {
+    background: url(../img/blog/high_score.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+}
+
+
 .main-blog-area {
     background-color: white;
 }
@@ -315,6 +383,7 @@
 .main-blog-area .main-blog-heading h1 {
     font-family:"Open Sans", sans-serif;
     text-align: center;
+    margin-top:1em;
 }
 
 .main-blog-area .main-blog-heading p {
@@ -387,8 +456,14 @@
 .blog-home-card-decks {
     padding-right:30px;
     padding-left:30px;
-    padding-bottom:5em;
     background:white;
+}
+
+.blog-home-card-decks .blog-card-deck .card-deck .card:hover{
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.individual-card-blog .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 

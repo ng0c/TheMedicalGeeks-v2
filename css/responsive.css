@@ -645,7 +645,12 @@
     margin-bottom: 2em;
     margin-top:2em;
     max-width: 90%;
-  
+  }
+  .individual-card-blog {
+    padding:1.5em;
+  }
+  .individual-card-blog .card2-img-top {
+    max-width:100%;
   }
 
   .blog-featured-caption {
@@ -816,8 +821,14 @@
     border-radius: 1.25em;
     margin-top:3em;
     border-radius: 10%;
+  }
 
-
+  .individual-card-blog .card2-img-top {
+    padding-right: 1.25em;
+    padding-left: 1.25em;
+    border-radius: 1.25em;
+    margin-top:3em;
+    border-radius: 10%;
   }
 
   .blog-featured h8 {
@@ -949,8 +960,14 @@
     border-radius: 1.25em;
     margin-top:3em;
     border-radius: 10%;
+  }
 
-
+  .individual-card-blog .card2-img-top {
+    padding-right: 1.25em;
+    padding-left: 1.25em;
+    border-radius: 1.25em;
+    margin-top:3em;
+    border-radius: 10%;
   }
 
   .blog-featured h8 {
@@ -1038,13 +1055,23 @@
   .blog-card-deck .card-deck .card .card2-img-top {
     border-radius: 2.1em;
   }
-
   .blog-card-deck .card-deck .card h8 {
     font-size:1.2em;
-
   }
-
+  .individual-card-blog {
+    text-align:center;
+    padding:0em 9em 0em 9em;
+  }
+  .individual-card-blog .card2-img-top {
+    max-width:45%;
+  }
+  .individual-card-blog .card h8{
+    font-size:1.2em;
+  }
   .blog-card-deck .card-deck .card p {
+    font-size:0.8em;
+  }
+  .individual-card-blog .card p {
     font-size:0.8em;
   }
   }
@@ -1126,6 +1153,9 @@
     padding-right:5em;
     padding-left: 5em;
   }
+  .individual-card-blog {
+    padding:0em 18em 0em 18em;
+  }
   /* FOR THE INDIVIDUAL BLOG PAGES */
   .blog-banner{
     min-height: 500px;
@@ -1147,9 +1177,12 @@
   .main-blog-area .container-section-blog .main-body-text .individual-headings img {
     width:15vw;
 }
-  
+}
 
-
+@media (min-width:1024px) {
+  .individual-card-blog .card2-img-top {
+    max-width:75%;
+  }
 }
 
 @media screen and (min-width: 1199px) {
@@ -1210,10 +1243,15 @@
     .blog-card-deck .card-deck .card p {
       font-size:1.1em;
     }
+    .individual-card-blog .card p{
+      font-size:1.1em;
+    }
 
     .blog-card-deck .card-deck .card h8 {
       font-size:1.7em;
-
+    }
+    .individual-card-blog .card h8{
+      font-size:1.7em;
     }
 
     .teaser-section p {
@@ -1240,6 +1278,18 @@
   .main-blog-area .container-section-blog .main-body-text .individual-headings img {
     width:10vw;
 }
+}
+
+@media (min-width:1130px) {
+  .individual-card-blog {
+    padding:0em 25em 0em 25em;
+  }
+}
+
+@media (min-width:1500px) {
+  .individual-card-blog .card2-img-top {
+    max-width:100%;
+  }
 }
 
 @media screen and (min-width:1999px) and (max-width:2000px) {

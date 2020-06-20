@@ -1,0 +1,748 @@
+h1 {
+    font:inherit;
+    
+}
+
+/* ALL MEDIA QUERIES HERE */ 
+
+
+@media (min-width:300px) {
+    .podcast-container{
+        padding-top:13em;
+        min-height: 50em;
+    }
+    .podcast-container .featured-episode .podcast-episode h1 {
+        font-size: 2.1rem !important;
+    }
+}
+
+@media (min-width:374px) {
+    .podcast-container{
+        padding-top:8em;
+        min-height: 45em;
+    }
+    .podcast-container .featured-episode .podcast-episode h1 {
+        font-size: 2.5rem !important;
+    }
+    
+}
+
+@media (min-width:424px) {
+    #timeline {
+        width:230px !important;
+    }
+}
+
+@media (min-width:767px) {
+    #timeline {
+        width:300px !important;
+    }
+    .itunes{
+        display:flex !important;
+    }
+    .podcast-container .container-fluid {
+        padding-top: 75px !important;
+    }
+    .podcast-container .container-fluid .col-12 {
+        padding-left:50px !important;
+    }
+    
+    }
+
+
+@media (min-width:991px) {
+
+    
+    }
+
+@media (min-width:1000px) {
+    .podcast-container{
+        padding-top:11em;
+        min-height: 45em;
+    }
+}
+
+
+@media (min-width:1439px) {
+
+    
+    }
+
+
+
+/* LEGIT CSS PODCAST HERE */ 
+.podcast-container{
+    background: url("../img/mics.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.podcast-container .subheading-featured p {
+    color:rgb(199, 199, 199);
+    opacity:70%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:0.90em;
+    padding-bottom:1em;
+
+}
+
+.podcast-container .featured-episode .podcast-episode h1 {
+    font-size: 2.5rem;
+    line-height: 1.4;
+    letter-spacing: .1em;
+    margin: 0 0 .5em;
+    text-align:left;
+    color:white;
+    font-family:"Oswald", sans-serif;
+    font-weight:500;
+
+}
+
+
+#timeline{
+	width: 400px;
+	height: 20px;
+	background: #4200f7;
+	margin-top: 20px;
+	float: left;
+	border-radius: 15px;
+}
+
+#playhead{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	margin-top: 1px;
+	background: rgba(0, 255, 196, 0.82);
+}
+
+.itunes {
+    margin-top:2em;
+    overflow: hidden;
+    display: inline-grid;
+}
+
+.itunes .fa{
+    float:left;
+}
+
+.itunes h1{
+    font-family:"Karla", sans-serif;
+    text-align: center;
+    font-weight:700;
+    margin:0 40px 0 0;
+}
+
+.player i:hover {
+    
+}
+
+.button {
+    padding: 0.5em 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family:"Karla", sans-serif;
+  }
+
+.button1:hover{
+    background-color: rgb(135, 210, 237);
+}
+
+.button2:hover{
+    background-color:#c0c0c0;
+}
+  
+  .button1 {
+    background-color:#262626; 
+    color: black; 
+    border: 2px solid rgb(135, 210, 237);
+    border-radius: 0.6em;
+    color: white;
+    display: inline-flex;
+    margin-bottom:1em;
+  }
+
+  .button2{
+    background-color:#262626;
+    color: black; 
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0.6em;
+    color: white;
+    display: inline-flex;
+    margin-bottom:1em;
+  }
+
+  .browse .browse-header{
+      padding-top:50px;
+      font-size:1.8em;
+      font-family:"Karla", sans-serif;
+  }
+
+  .browse-more .button h1 {
+      margin:0;
+  }
+
+
+  .browse-header {
+    position: relative;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #e6e6e6;
+    border-bottom: 2px solid rgb(135, 210, 237);
+
+  }
+
+  .episode-separator {
+    position: relative;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #e6e6e6;
+    border-bottom: 2px solid rgba(61, 61, 61, 0.7);
+    font-family: "Karla", sans-serif;
+    margin-top:1.3em;
+    margin-bottom:1.5em;
+    font-weight:700;
+}
+
+.episode-separator h3 {
+
+    margin: 0 0 .7em;
+}
+
+.episode-separator em {
+    font-style: normal;
+    color: rgb(135, 210, 237);
+}
+
+.episode-separator span:after {
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(135, 210, 237);
+}
+
+.episode-separator span {
+    position: relative;
+    display: inline-block;
+}
+
+.individual-podcast .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.individual-podcast .card h1 {
+color:#969696;
+padding-top:1em;
+padding-bottom: 1em;
+padding-left:0.5em;
+font-weight:bold;
+
+}
+
+.individual-podcast .card img {
+    height:auto;
+    max-width:100%;
+    display: block;
+    padding:0.5em;
+    border-radius: 0.9em;
+}
+
+.individual-podcast .card p1 {
+    font-family: "Karla", sans-serif;
+    font-size:0.9em;
+    color:#262626;
+    padding-left:0.5em;
+    padding-right:0.5em;
+    line-height: 1.3em;
+    padding-bottom:0.5em;
+}
+
+.breaker-cards {
+    padding:1.2em;
+}
+
+.browse-more {
+    padding-top:3em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-section {
+    background-color: #262626;
+}
+
+.category-button {
+    padding: 0.8em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: "Karla", sans-serif;
+    background-color: rgb(135, 210, 237);
+    color: white;
+    border-radius: 0.6em;
+    border: none;
+}
+
+.category-button:hover{
+    background-color: rgb(224, 224, 224);
+    text-decoration: none;
+    color:rgb(45, 187, 238)
+}
+
+.latest-section .container .podcast-header h {
+    color:white;
+    font-family:"Karla", sans-serif;
+}
+
+.latest-section .container .podcast-date p {
+    color:#8d8d8d;
+    font-family: "Karla", sans-serif;
+    padding-top:0.5em;
+}
+
+.latest-section .container .podcast-summary p {
+    color: white;
+    font-family: "Karla", sans-serif;
+    padding-top:0.9em;
+    line-height:1.3em;
+
+}
+
+.latest-section .container  .podcast-read-more {
+    margin-top:1.3em;
+    margin-bottom:3.54em;
+}
+
+.latest-section .container  .podcast-read-more a{
+    color:#8d8d8d;
+    font-family: "Oswald", sans-serif;
+    margin-top:1.3em;
+    font-size:1.1em;
+    margin-bottom:3.54em;
+    font-weight:500;
+}
+
+.latest-section .container .podcast-read-more a:hover{
+    color:white;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+.episode-separator .row .col-12 {
+    padding-top:1em;
+}
+
+.subscribe .container .subscribe-here h1 {
+    margin-top:2.5em;
+    font-size:1.75em;
+    text-align:center;
+    font-family: "Oswald",sans-serif;
+    font-weight:500;
+    color:#262626;
+    line-height:1.5em;
+}
+
+
+.subscribe .container .subscribe-here p{
+    margin-top:1.25em;
+    font-size:0.9em;
+    text-align:center;
+    font-family: "Karla",sans-serif;
+    font-weight:400;
+    color:#262626;
+    line-height:1.5em;
+}
+
+.input-centre {
+    display:grid;
+    justify-content: center;
+}
+
+.input-centre .email {
+    text-align: center;
+    min-width:12em;
+    min-height: 2.5em;
+    margin-top:0.9em;
+    margin-bottom:0.95em;
+}
+
+.subscribe .col-12 .subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe .col-12 .subscribe .subscribe-button {
+    padding: 0.3em 1.2em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: "Karla", sans-serif;
+    border-radius: 0.3em;
+    background-color: rgb(135, 210, 237);
+    color: white;
+    font-family: "Karla" , sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border:none;
+}
+
+.subscribe .col-12 .subscribe .subscribe-button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.podcast-categories {
+    padding-top:3em;
+}
+
+.subheading-categories h1{
+    font-size:1.75em;
+    font-family:"Oswald", sans-serif;
+    font-weight:400;
+    text-align:center;
+    font-weight:500;
+    padding-top:2.5em;
+}
+
+.podcast-categories h1{
+    font-size:1.25em;
+    font-family:"Oswald", sans-serif;
+    font-weight:400;
+    text-align:center;
+    font-weight:400;
+    margin-top:0.8em;
+}
+
+.podcast-categories .card {
+    border:none;
+    text-align: center;
+    margin-bottom:2em;
+}
+
+.podcast-categories .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.podcast-categories .card-deck {
+    margin-left:0;
+    margin-right:0;
+}
+
+.podcast-categories .card .card-body p1 {
+    font-family:"Oswald", sans-serif;
+    color:#888888;
+}
+
+
+
+
+
+
+
+/* SIDE NAV BAR FROM BELL ICON */ 
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: url(../../img/background/blue-sky-abstract-background-images-for-website-cool-colourful-apple-2560x1600.jpg);
+    /* background-color:#DCE1E9;*/ 
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 6em;
+  }
+
+  @media (max-width:450) {
+      .sidenav{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 6.5em;
+  }
+}
+
+  .side-navbar-header {
+      font-size:2.5rem; 
+      padding: 0.5em;
+  }
+
+  .side-navbar-header .extra-container-fluid .closebackbtn {
+      background: transparent;
+      left:0;
+  }
+  .background-close {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    right:0;
+    z-index: 1;
+    top: 0;
+    background-color: black;
+    opacity: 40%;
+    overflow-x: hidden;
+    transition-timing-function: ease-in;
+    padding-top: 6em;
+  }
+
+  .closebackbtn {
+    height: 100%;
+    width: 65vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: transparent;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 6em;
+    outline: none;
+    border: none;
+  }
+  
+  .sidenav a {
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+.sidenav .closebtn{
+    position: absolute;
+    color: #d6d6d6;
+    text-decoration: none;
+}
+
+.side-navbar-header .container-fluid h1{
+    font-family:"Roboto", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: #d6d6d6;
+}
+
+/* ADD THESE TO RESPONSIVENESS */ 
+
+
+
+  @media (min-width:300px){ 
+  .sidenav .closebtn {
+    top: 0;
+    right: 8px;
+    font-size: 0.7em;
+    margin-left: 50px;
+    padding-top: 8.5em;
+  }
+  .side-navbar-header .container-fluid h1{ 
+    margin-top:3.5em;
+    font-size:0.8em;
+  }
+  }
+
+  @media (min-width:360px){
+      .sidenav .closebtn {
+        top: 0;
+        right: 8px;
+        font-size: 0.7em;
+        margin-left: 50px;
+        padding-top: 6.25em;
+      }
+      .side-navbar-header .container-fluid h1{
+        margin-top:1.9em;
+        font-size:0.8em;
+      }
+  }
+
+  @media (min-width:768px) {
+
+    .sidenav .closebtn {
+        top: 0;
+        right: 8px;
+        font-size: 0.7em;
+        margin-left: 50px;
+        padding-top: 5em;
+      }
+      .side-navbar-header .container-fluid h1{
+        margin-top:0.5em;
+        font-size:0.8em;
+      }
+  }
+
+  .sidebar-card-container .card {
+      margin:1em;
+      border:none;
+      outline:none;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+  .sidebar-card-container .card .card-side {
+    margin: 1em;
+    margin-bottom: 3em;
+    padding-bottom: 3em;
+    border-bottom-style: solid;
+}
+   
+  .sidebar-card-container .card p1{
+      color:grey;
+      font-family:"Roboto", sans-serif;
+  }
+  .sidebar-card-container .card p9 {
+      font-family: "Roboto", sans-serif;
+  }
+  .sidebar-card-container .card h8{
+      text-align: left;
+      margin-top:1.5em;
+      font-family:"Roboto", sans-serif; 
+  }
+
+  .sidebar-card-container .card h3{
+        font-family:"Roboto", sans-serif;
+        font-weight: 700;
+  }
+
+  .sidebar-card-container .card .card-side .side-img {
+      width:100%;
+      margin-left:auto;
+      margin-right:auto;
+      display: block;
+      margin-bottom:1em;
+      border-radius:0.5em;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+/* POSITION OF BELL */ 
+
+header .notification{
+    float: right;
+    cursor: pointer;
+    position: relative
+}
+
+@media (min-width:300px){
+    header .notification {
+        float:left;
+        padding-top:5px;
+        cursor: pointer;
+        position: relative;
+    }
+
+}
+
+header .notification:hover i{
+    color: rgb(255, 255, 255);
+    -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+}
+
+header i{
+    color: #9FB6C3;
+    font-size: 22px !important;
+    line-height: 24px !important;
+}
+
+
+/* Responsiveness to show bell icon appearing on bigger than laptop */
+
+@media (min-width:300px) {
+    .wrapper .notification i {
+    display:none !important;
+    }
+
+    .wrapper .notification .text {
+    color:rgba(255,255,255,.5);
+    }
+}
+
+@media (min-width:992px) {
+    .wrapper .notification i {
+    display:inline-block !important;
+    }
+    .wrapper .notification .text {
+        display: none !important;
+        }
+
+    /* To accomodate for bell, text size in header needs to be smaller */ 
+    .navbar-expand-lg .navbar-collapse {
+        font-size:0.8em;
+}
+}
+
+@media (min-width:1100px) {
+    .navbar-expand-lg .navbar-collapse {
+        font-size:1em;
+    }
+}
+
+
+/* THIS IS THE RED DOT ICON */ 
+
+#common-count{
+  background: red;
+    color: red;
+  -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border-width: 2%;
+
+} 
+/* this allows the red dot to work fine on mobile */ 
+header .count1 {
+  position: absolute;
+  top: 2px;
+  width: 15px;
+  font-size: 10px;
+  height: 14px;
+  padding-top: 0px;
+  right: -19px;
+}
+
+/* this allows the red dot to work fine on desktop */ 
+@media (min-width:992px) {
+  header .count1{
+      position: absolute;
+      top: 2px;
+      width: 15px;
+      font-size: 10px;
+      height: 14px;
+      padding-top: 0px;
+      left: 13px;
+  }
+
+}
+  
+
+
