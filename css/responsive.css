@@ -1130,6 +1130,11 @@
     padding-left: 2em;
   }
 
+  .contents-section-blog .container-fluid .card {
+    margin-left:10em;
+    margin-right:10em;
+}
+
   /*FOR INDIVIDUAL BLOG PAGES */ 
   .blog-home-heading h1 {
     padding-top:4em;
