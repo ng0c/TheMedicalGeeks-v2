@@ -352,6 +352,14 @@
     min-height: 600px;
 }
 
+.bmat_low_score-hero-banner{
+    background: url(../img/blog/bmat_low_score.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+}
+
 .ucat_average_score-hero-banner {
     background: url(../img/blog/average_score.png) no-repeat scroll center center;
     position: relative;
@@ -359,6 +367,15 @@
     background-size: cover;
     min-height: 600px;
 }
+
+.bmat_average_score-hero-banner{
+    background: url(../img/blog/bmat_average_score.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+}
+
 .ucat_good_score-hero-banner {
     background: url(../img/blog/good_score.png) no-repeat scroll center center;
     position: relative;
@@ -366,12 +383,31 @@
     background-size: cover;
     min-height: 600px;
 }
+
+.bmat_good_score-hero-banner{
+    background: url(../img/blog/good_score.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+}
+
+
 .ucat_high_score-hero-banner {
     background: url(../img/blog/high_score.png) no-repeat scroll center center;
     position: relative;
     padding: 100px 0;
     background-size: cover;
     min-height: 600px;
+
+}
+.bmat_high_score-hero-banner{
+    background: url(../img/blog/bmat_high_score.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+
 }
 
 
