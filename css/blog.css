@@ -544,3 +544,40 @@
     color:#d6d6d6;
 }
 
+/* FOR THE CATEGORY SECTIONS OF BLOGS */ 
+
+.subheading-categories h1{
+    font-size:2.2em;
+    text-align:center;
+    font-weight:bold;
+    padding-top:2.5em;
+    padding-bottom:1.5em;
+}
+
+.podcast-categories h1{
+    font-size:1.25em;
+    font-weight:400;
+    text-align:center;
+    font-weight:400;
+    margin-top:0.8em;
+}
+
+.podcast-categories .card {
+    border:none;
+    text-align: center;
+    margin-bottom:2em;
+}
+
+.podcast-categories .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.podcast-categories .card-deck {
+    margin-left:0;
+    margin-right:0;
+}
+
+.podcast-categories .card .card-body p1 {
+    color:#888888;
+}
+

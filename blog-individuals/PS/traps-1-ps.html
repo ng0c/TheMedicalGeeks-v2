@@ -20,10 +20,16 @@
     <!-- DONT FORGET TO ADD THE ROOT DIRECTORY TO THE LINK HREF FILES WITH THE ../ -->
 
     <!-- THIS IS NEEDED FOR NAV BAR + NOTIFICATION BELL -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- FOR CATEOGORIES SECTION-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
 
 
 
@@ -101,7 +107,7 @@
                         </li>
                         <div class="wrapper" onclick="clickCounter(); openNav();">
                             <div class="notification" onclick="openNav(); clickCounter();">
-                                <i class="fa fa-bell-o"></i>
+                                <i class="far fa-bell"></i>
                                 <div class="text" onclick="closeBar();">Notifications</div>
                                 <div class="notify-count count1 common-count" id="common-count" count="0">
                                     <div class="value" id="value">0</div>
@@ -444,55 +450,60 @@
     </section>
 
 
-    <section class="categories-header">
-        <div class="categories-container">
-            <div class="categories">
-                <h1>Categories</h1>
-            </div>
-        </div>
+    <section class="subheading-categories" style="background-color: white;">
+        <h1>Categories</h1>
     </section>
 
-    <section class="explore-card-area">
-        <div class="card-deck">
-            <div class="card">
-                <img src="../../img/icons/ps-service.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Personal Statement</h5>
-                    <p1 class="card-text">Read Articles...
-                        <a href="../../blog-individuals/PS/ps-hm-blog.html"
-                            class="btn-lg btn-block mt-auto stretched-link"> </a>
-                    </p1>
-                    </a>
+    <section class="podcast-categories" style="background-color: white; color:#212529">
+        <div class="explore-card-area" style="background: white;">
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-feather fa-5x"></i>
+                        <h1 class="card-title">Personal Statement</h1>
+                        <p1 class="card-text">Read More...
+                            <a href="../PS/ps-hm-blog.html" class="btn-lg btn-block mt-auto stretched-link">
+                            </a>
+                        </p1>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="../../img/icons/ucat-service.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">UCAT</h5>
-                    <p1 class="card-text">Read Articles...
-                        <a href="../../blog-individuals/UCAT/ucat-hm-blog.html"
-                            class="btn-lg btn-block mt-auto stretched-link"> </a>
-                    </p1>
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-calculator fa-5x"></i>
+                        <h1 class="card-title">UCAT</h1>
+                        <p1 class="card-text">Read More...
+                            <a href="../UCAT/ucat-hm-blog.html" class="btn-lg btn-block mt-auto stretched-link"> </a>
+                        </p1>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="../../img/icons/bmat-service.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">BMAT</h5>
-                    <p1 class="card-text">Read Articles...
-                        <a href="../../blog-individuals/BMAT/bmat-hm-blog.html"
-                            class="btn-lg btn-block mt-auto stretched-link"> </a>
-                    </p1>
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-dna fa-5x"></i>
+                        <h1 class="card-title">BMAT</h1>
+                        <p1 class="card-text">Read More...
+                            <a href="../BMAT/bmat-hm-blog.html" class="btn-lg btn-block mt-auto stretched-link"> </a>
+                        </p1>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="../../img/icons/int.service.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Interview</h5>
-                    <p1 class="card-text">Read Articles...
-                        <a href="../../blog-individuals/Interview/interviewe-hm-blog.html"
-                            class="btn-lg btn-block mt-auto stretched-link"> </a>
-                    </p1>
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-comments fa-5x"></i>
+                        <h1 class="card-title">Interview</h1>
+                        <p1 class="card-text">Read More...
+                            <a href="../Interview/interviewe-hm-blog.html"
+                                class=" btn-lg btn-block mt-auto stretched-link"> </a>
+                        </p1>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-cogs fa-5x"></i>
+                        <h1 class="card-title">Admission Process</h1>
+                        <p1 class="card-text">Read More...
+                            <a href="#" class=" btn-lg btn-block mt-auto stretched-link"> </a>
+                        </p1>
+                    </div>
                 </div>
             </div>
         </div>
