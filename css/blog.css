@@ -410,6 +410,22 @@
 
 }
 
+.ps_trap_1-hero-banner {
+    background: url(../img/blog/ps_trap-1.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.ps_trap_2-hero-banner{
+    background: url(../img/blog/ps_trap-2.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+}
+
 
 .main-blog-area {
     background-color: white;

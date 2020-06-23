@@ -1125,6 +1125,12 @@
     font-size:1.0em;
   }
 
+  .blog-home-card-decks .blog-card-deck .two-card{
+    display:flex;
+    margin-right:8em;
+    margin-left:8em;
+  }
+
   .blog-featured {
     padding-right:2em;
     padding-left: 2em;
@@ -1188,6 +1194,11 @@
   .individual-card-blog .card2-img-top {
     max-width:75%;
   }
+  .blog-home-card-decks .blog-card-deck .two-card{
+    margin-right:9em;
+    margin-left:9em;
+  }
+
 }
 
 @media screen and (min-width: 1199px) {
@@ -1271,6 +1282,10 @@
       font-size:2.1em;
       border-radius: 4em;
     }
+    .blog-home-card-decks .blog-card-deck .two-card{
+      margin-right:10em;
+      margin-left:10em;
+    }
 
     /* FOR THE INDIVIDUAL BLOG PAGES */
   .blog-banner{
@@ -1294,6 +1309,10 @@
 @media (min-width:1500px) {
   .individual-card-blog .card2-img-top {
     max-width:100%;
+  }
+  .blog-home-card-decks .blog-card-deck .two-card{
+    margin-right:11em;
+    margin-left:11em;
   }
 }
 
