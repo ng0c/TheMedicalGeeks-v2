@@ -217,7 +217,7 @@ html {
 
 .service-card-area {
   position: relative;
-  background:transparent;
+  background:white;
 }
 
 .service-card-area .card-deck .card {
