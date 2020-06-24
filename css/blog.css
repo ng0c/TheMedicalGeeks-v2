@@ -426,6 +426,32 @@
     min-height: 600px;
 }
 
+.work-experience-1-hero-banner{
+    background: url(../img/blog/work-experience-1.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.work-experience-2-hero-banner{
+    background: url(../img/blog/work-experience-2.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.work-experience-3-hero-banner{
+    background: url(../img/blog/work-experience-3.png) no-repeat scroll center center;
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    min-height: 600px;
+}
+
+
+
 
 .main-blog-area {
     background-color: white;
