@@ -281,3 +281,38 @@ html {
   color:blue;
 
 }
+
+/* COMMUNITY JOIN ROCKET */
+
+.community-join {
+  font-family: 'Nunito', sans-serif;
+}
+
+
+.community-join .container h1{
+  color:#6fd3f1;
+  text-align: center;
+  font-weight:400;
+}
+
+
+.community-join .container h2{
+color:#005d8b;
+font-weight:700;
+text-align: center;
+}
+
+
+.community-join .container .rocket img {
+  justify-content: center;
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.community-join .counter-value {
+  text-align: center;
+    color: #005d8b;
+}
+
+
