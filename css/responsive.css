@@ -5,6 +5,32 @@
   .ps_service_content {
     padding: 0 !important;
   }
+  .subscribe-center {
+    background-size:100vw 15em !important; 
+    padding-bottom:5em;
+  }
+
+  .subscribe-center h1{
+    font-size:1.5em;
+  }
+  .subscribe-center h2{
+    font-size:2.5em;
+  }
+  .subscribe-center .container {
+    width:95vw !important;
+  }
+  .subscribe-center .container h3 {
+      font-size:1.3em !important;
+      padding-top:2em;
+    }
+  #mc_embed_signup #mc_embed_signup_scroll .email{
+    font-size:0.7em;
+  }
+  #mc_embed_signup .clear .button{ 
+    width: 6em;
+    height:2em;
+  }
+
 }
 
 @media (min-width:300px) and (max-width:575px) {
@@ -75,6 +101,12 @@
 @media (min-width:767px) {
   .community-join .container .rocket img {
     max-width:23%;
+  }
+  .subscribe-center .container {
+    width:55vw !important;
+  }
+  #mc_embed_signup #mc_embed_signup_scroll .email {
+    font-size:1em;
   }
 }
 
@@ -189,6 +221,18 @@
     height: 100%;
     margin-left: 600px;
 }
+.subscribe-center .container h3 {
+  font-size:2em !important;
+}
+#mc_embed_signup #mc_embed_signup_scroll .email {
+  font-size:1.4em !important;
+}
+#mc_embed_signup .clear .button {
+  width:8em;
+}
+.subscribe-center {
+  background-size: 100vw 18em !important;
+
 
 }
 
