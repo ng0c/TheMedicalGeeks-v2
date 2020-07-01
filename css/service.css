@@ -162,16 +162,7 @@
   min-height: 600px; /* THIS APPLIES TO ALL HERO BANNERS */ 
 }
 
-/* CONTAINER 2 SECTION */
-.ucat-service-area .overlay {
-  background: url(../img/background/container-2-ucat.png) no-repeat center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-}
+
 
 .ucat-service-area .ucat-service-area-inner {
   position: relative;
@@ -399,16 +390,7 @@
   min-height: 600px;
 }
 
-/* CONTAINER 2 SECTION */
-.bmat-service-area .overlay {
-  background: url(../img/background/container-2-bmat.png) no-repeat center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-}
+
 
 .bmat-service-area .bmat-service-area-inner {
   position: relative;
@@ -707,16 +689,6 @@
   min-height: 700px;
 }
 
-.ps-service-area .ps-area-inner .overlay {
-  background: url(../img/background/ps-container-4.png) no-repeat center right;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-  padding-left: 70em;
-}
 
 .ps-service-area .ps-area-inner .card {
   border: none;
@@ -842,4 +814,8 @@
 
 .freebies-btn:hover {
   background-color: RoyalBlue;
+}
+
+.individual-card-blog .card2-img-top {
+  max-width:100%;
 }
