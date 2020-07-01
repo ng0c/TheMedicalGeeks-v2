@@ -30,6 +30,9 @@
     width: 6em;
     height:2em;
   }
+  .home_banner_area .banner_inner .banner_content h3 {
+    margin-top:4.5em !important;
+  }
 
 }
 
@@ -112,6 +115,10 @@
 
 @media (min-width:991px) {
 
+  .home_banner_area .banner_inner .banner_content h3 {
+    margin-top:0 !important;
+  }
+
   .home_banner_area .banner_inner .overlay {
     background: url(../img/background/front-landing-page.png);
     position: absolute;
@@ -122,8 +129,31 @@
     width:100%;
     height: auto; 
     margin-left: 290px;
-    
 }
+
+
+
+.service-area .service-area-inner .overlay {
+  background: url(../img/background/container-2.png) no-repeat center left;
+  position: absolute;
+  left: 80px;  /* THIS NEEDS CHANGING */ 
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.service-area-subcontent .service-subcontent-inner .overlay {
+  background: url(../img/background/container-3.png) no-repeat center right;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+
 
   .home_banner_area {
     min-height: 900px;

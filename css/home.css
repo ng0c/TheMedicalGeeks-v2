@@ -6,15 +6,6 @@ html {
   background-color:#5985BA;
 }
 
-.home_banner_area .banner_inner .overlay {
-  background: url(../img/background/front-landing-page.png) no-repeat;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-}
 
 .home_banner_area .banner_inner {
   position: relative;
@@ -62,15 +53,6 @@ html {
   overflow: hidden;
 }
 
-.service-area .service-area-inner .overlay {
-  background: url(../img/background/container-2.png) no-repeat center left;
-  position: absolute;
-  left: 80px;  /* THIS NEEDS CHANGING */ 
-  right: 0;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-}
 
 .service-area .service-area-inner {
   position: relative;
@@ -135,15 +117,6 @@ html {
   padding: 130px 0;
 }
 
-.service-area-subcontent .service-subcontent-inner .overlay {
-  background: url(../img/background/container-3.png) no-repeat center right;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-}
 
 .service-area-subcontent .area-heading {
   margin-bottom: 80px;
